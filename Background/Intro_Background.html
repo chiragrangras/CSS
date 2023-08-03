@@ -13,7 +13,7 @@
         margin: 20px 0px;
         color: red;
       }
-      .background-attachment {
+      .bg-attachment {
         border: 10px dashed blue;
         background-image: url(../Images/Natural_image01.jpeg);
         background-repeat: no-repeat;
@@ -21,53 +21,117 @@
         background-position: center center;
         background-attachment: fixed;
       }
-      .background-clip {
+      .bg-clip {
         border: 10px dashed green;
         background-image: url(../Images/Natural_image02.jpeg);
         background-clip: border-box;
         background-size: cover;
         background-clip: padding-box;
         background-clip: content-box;
+        padding: 100px;
       }
-      .background-origin {
+      .bg-origin {
         border: 10px dashed yellow;
         background-image: url(../Images/Natural_image03.jpeg);
         background-repeat: no-repeat;
-        background-size: cover;
-        background-origin: border-box;
+        background-size: auto;
         background-origin: padding-box;
-        background-origin: content-box;
-        padding: auto;
+        padding: 200px;
       }
-      .background-color{
+
+      .bg-color {
         border: 10px dashed red;
         background-color: gold;
       }
-      .background-image{
+      .bg-image {
         border: 10px dashed orange;
-        background-image: url(../Images/Natural_image02.jpeg);
+        background-image: url(./../Images/Natural_image02.jpeg);
         background-size: cover;
       }
-      .background-position{
+      .bg-position {
         border: 10px dashed yellowgreen;
-        color: aqua;
+        color: blue;
         background-image: url(../Images/Natural_image01.jpeg);
-        background-image: url(../Images/Natural_image03.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 500px;
-        /* background-position: center center;      */
+      }
+      .bg-position-left-top {
+        background-position: left top;
+      }
+      .bg-position-right-top {
+        background-position: right top;
+      }
+      .bg-position-left-bottom {
+        background-position: left bottom;
+      }
+      .bg-position-right-bottom {
+        background-position: right bottom;
+      }
+      .bg-position-center-center {
+        background-position: center center;
+      }
+      .side-by-side-images {
+        border: 10px dashed greenyellow;
+        color: orange;
+        background-image: url("./../Images/Natural_image02.jpeg"),
+          url("./../Images/Natural_image03.jpeg");
+        background-size: 49% 49%, 49% 49%;
+        background-position: left top, right top;
+        background-repeat: no-repeat, no-repeat;
+      }
+      .bg-repeat {
+        border: 10px dashed greenyellow;
+        color: blueviolet;
+        background-image: url(./../Images/Natural_image02.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .bg-size {
+        border: 10px dashed orangered;
+        color: yellow;
+        background-image: url(./../Images/Natural_image03.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
       }
     </style>
   </head>
   <body>
-    <div class="background-attachment">Background-attachment</div>
-    <div class="background-clip">Background-clip</div>
-    <div class="background-origin">Background-origin</div>
-    <div class="background-color">Background-color</div>
-    <div class="background-image">Background-image</div>
-    <div class="background-position">Background-position</div>
-    <div class="background-repeat">Background-repeat</div>
-    <div class="background-size">Background-size</div>
+    <h1>Background Property In CSS</h1>
+    <ol>
+      <li>background-attachment</li>
+      <li>background-clip</li>
+      <li>background-origin</li>
+      <li>background-color</li>
+      <li>background-image</li>
+      <li>background-position</li>
+      <li>background-repeat</li>
+      <li>background-size</li>
+    </ol>
+    <div class="bg-attachment">Background-attachment</div>
+    <div class="bg-clip">Background-clip</div>
+    <div class="bg-origin">
+      <h2>Background-origin-padding</h2>
+    </div>
+    <div class="bg-color">Background-color</div>
+    <div class="bg-image">Background-image</div>
+    <div class="bg-position bg-position-left-top">
+      Background-position-left-top
+    </div>
+    <div class="bg-position bg-position-right-top">
+      Background-position-right-top
+    </div>
+    <div class="bg-position bg-position-center-center">
+      Background-position-center-center
+    </div>
+    <div class="bg-position bg-position-left-bottom">
+      Background-position-left-bottom
+    </div>
+    <div class="bg-position bg-position-right-bottom">
+      Background-position-right-bottom
+    </div>
+    <div class="side-by-side-images">Background-side-by-side-images</div>
+    <div class="bg-repeat">Background-repeat</div>
+    <div class="bg-size">Background-size</div>
   </body>
 </html>
