@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border In CSS</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        background-color: blue;
+        color: aqua;
+        text-align: center;
+        border: 10px solid olivedrab;
+    }
+    .box-0{
+        background: url(./../Images/flower_img.jpg);
+        width: 300px;
+        height: 300px;
+        background-clip: padding-box;
+        margin: 25px auto;
+        border: 10px solid orange;
+        color:aqua;
+    }
+    .box-1{
+        background: url(./../Images/flower_img.jpg);
+        width: 300px;
+        height: 300px;
+        background-clip: padding-box;
+        margin: 40px auto;
+        border-radius: 10px;
+        color: aqua;
+    }
+    .box-2{
+        background: url(./../Images/flower_img.jpg);
+        width: 300px;
+        height: 300px;
+        margin: 40px auto;
+        background-clip: padding-box;
+        border: 10px dotted blueviolet;
+        color: aqua;
+    }
+    .box-3{
+        background: url(./../Images/flower_img.jpg);
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        border: 10px dashed orange;
+        color: aqua;
+    }
+    .box-4{
+        background: url(./../Images/flower_img.jpg);
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        border: 10px double red;
+        color: aqua;
+    }
+    .box-5{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        background-color: orange;
+        border: 10px solid red;
+        color: aqua;
+    }
+    .box-6{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        background-color: orange;
+        border-top: 10px solid red;
+        color: aqua;
+    }
+    .box-7{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        background-color: orange;
+        border-right: 10px solid red;
+        color: aqua;
+    }
+    .box-8{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        background-color: orange;
+        border-right: 10px solid red;
+        color: aqua;
+    }
+    .box-9{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        background-color: orange;
+        border-left: 10px solid red;
+        color: aqua;
+    }
+    .box-10{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        background-color: orange;
+        border: 10px inset red;
+        color: aqua;
+    }
+    .box-11{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        background-color: orange;
+        border: 10px outset red;
+        color: aqua;
+    }
+    .box-12{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        border: 10px solid red;
+        background-color:orange;
+        border-image: url(./../Images/flower_img.jpg) 1;
+    }
+    .box-13{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        border: 10px solid red;
+        background-color: orange;
+        color: aqua;
+        border-style: none;
+    }
+    .box-14{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        background-clip: padding-box;
+        border: 10px solid red;
+        background-color: orange;
+        color: aqua;
+        border-top-left-radius: 30px 30px;
+    }
+</style>
+<body>
+    <h1>Border In CSS</h1>
+    <div class="box-0">Border-Solid</div>
+    <hr>
+    <div class="box-1">Border-Radius</div>
+    <hr>
+    <div class="box-2">Border-Dotted</div>
+    <hr>
+    <div class="box-3">Border-Dashed</div>
+    <hr>
+    <div class="box-4">Border-Double</div>
+    <hr>
+    <div class="box-5">Border-Colour</div>
+    <hr>
+    <div class="box-6">Border-Top</div>
+    <hr>
+    <div class="box-7">Border-Right</div>
+    <hr>
+    <div class="box-8">Border-Bottom</div>
+    <hr>
+    <div class="box-9">Border-Left</div>
+    <hr>
+    <div class="box-10">Border-Inset</div>
+    <hr>
+    <div class="box-11">Border-Outset</div>
+    <hr>
+    <div class="box-12">Border-Image</div>
+    <hr>
+    <div class="box-13">Border-Style-None</div>
+    <hr>
+    <div class="box-14">Border-End-Radius</div>
+</body>
+</html>
