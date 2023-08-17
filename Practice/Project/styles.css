@@ -281,3 +281,14 @@
     text-align: center;
     padding: 10px;
 }
+#footer{
+    background-color: #b13941;
+    padding: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";
+}
