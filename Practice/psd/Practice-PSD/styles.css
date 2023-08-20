@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #4a1831;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+#section-1{
+    background-image: url(./Images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 90px;
+    color:#ffd7ad;
+    font-family: "PT serif";
+    text-align: left;
+}
+#section-1-1{
+    padding: 20px;
+}
+#section-1-2 h1{
+    margin: 10px;
+    font-size: 50px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: left;
+}
+#section-1-2 p{
+    margin: 10px;
+    font-size: 30px;
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: left;
+}
+.btn-1{
+    border: none;
+    border-radius: 33px;
+    padding: 20px;
+    background-color:#ffd7ad;
+    color: #4a1831;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    cursor: pointer;
+    margin: 50px;
+}
+#section-2{
+    background-color: #ffd7ad;
+    text-align: center;
+}
+
+#section-2 h1{
+    padding: 30px;
+    font-size: 64px;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+#section-2 p{
+    font-size: 25px;
+    color: #4a1831;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+.btn-2{
+    border: none;
+    border-radius: 33px;
+    padding: 20px;
+    margin: 30px 0px 30px 0px;
+    background-color:#4a1831;
+    color: #ffd7ad;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    cursor: pointer;
+}
+#section-2-1 img{
+    width: 1263px;
+}
+#section-3{
+    background-color: #ffd7ad;
+    display: flex;
+    justify-content: space-around;
+}
+#section-3 img{
+    padding: 30px 0px 30px 30px;
+}
+#section-3 h1{
+    margin: 90px;
+    font-size: 50px;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+#section-3 p{
+    font-size: 30px;
+    color: #4a1831;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.btn-3{
+    border: none;
+    border-radius: 33px;
+    margin: 100px 0px 100px 0px;
+    padding: 20px;
+    background-color:#4a1831;
+    color: #ffd7ad;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    cursor: pointer;
+}
+#section-4{
+    background-color: #ffd7ad;
+    display: flex;
+    justify-content: space-around;
+}
+#section-4-1 h1{
+    padding-left: 30px;
+    font-size: 160px;
+    text-transform: uppercase;
+    color: #e63956;
+    font-weight: 900;
+    font-family: "Roboto";
+}
+#section-4-1 h2{
+    padding-left: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:#55112e;
+    font-weight: 900;
+    font-family: "Roboto";
+}
+#section-4-1 p{
+    padding-left: 30px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #6cc5ac;
+    font-weight: 900;
+    font-family: "Roboto";
+}
+#section-4-2 img{
+    width: 800px;
+}
+#section-5{
+    background-color: #4a1831;
+    display: flex;
+    justify-content: space-around;
+}
+#section-5-1 h1{
+    padding: 150px 0px 0px 40px;
+    font-size: 50px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+#section-5-1 p{
+    padding: 50px 0px 50px 30px;
+    font-size: 30px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+.btn-4{
+    border: none;
+    border-radius: 33px;
+    margin: 90px 0px 90px 30px;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #ffd7ad;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+#section-5-2 img{
+    margin: 90px 0px 90px 30px;
+}
+#section-6 {
+    background: url(./Images/bg-2.jpg)no-repeat center center/cover;
+    text-align: center;
+}
+#section-6-1 img{
+    margin: 20px;
+    height: 300px;
+}
+#section-6-1 p{
+    font-size: 42px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+#section-6-1 p:nth-child(2n+1){
+    padding: 50px 0px 100px 0px;
+    font-size: 60px;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+#section-7{
+    width: 1262px;
+    height: 700px;
+    background-color: #ffd7ad;
+}
+#section-7-1 h1{
+    padding-top: 100px;
+    font-size: 80px;
+    color: #4a1831;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+#section-7-1 p{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #4a1831;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+#section-7-1 .email{
+    margin: 50px 0px 50px 200px;
+    padding-left: 50px;
+    border-radius: 200px;
+    width: 660px;
+    height: 60px;
+    font-size: 30px;
+    background-color: #ffffff;
+}
+#section-7-1 .btn-5{
+    border: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 33px;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: #4a1831;
+    color: #ffd7ad;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    cursor: pointer;
+}
+#footer{
+    width: 1260px;
+    height: 900px;
+    background-color: #4a1831;
+    display: flex;
+    justify-content: space-around;
+}
+#footer h1{
+    padding: 100px 0px 0px 30px;
+    font-size: 32px;
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+#footer p{
+    padding: 30px 0px 0px 30px;
+    font-size: 32px;
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+#social-media{
+    padding:50px 0px 0px 0px;    
+}
+#social-media img{
+    padding:20px 30px 30px 0px;    
+}
+#footer-2 div{
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";    
+}
