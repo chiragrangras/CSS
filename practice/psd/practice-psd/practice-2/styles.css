@@ -395,3 +395,39 @@
     text-align: center;
     cursor: pointer;
 }
+#footer{
+    background-color: #303030;
+}
+#footer-conatiner{
+    display: flex;
+    justify-content: space-between;
+}
+#footer-conatiner h1{
+    padding: 100px 0px 10px 50px;
+    font-size: 50px;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+#footer-conatiner p{
+    padding: 20px 0px 20px 50px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+#footer-conatiner img{
+    padding: 30px 0px 30px 30px;
+}
+#footer-conatiner{
+    display: flex;
+    color: #ffffff;
+}
+#footer-conatiner h2{
+    padding: 100px 50px 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
