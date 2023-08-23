@@ -4,6 +4,7 @@
 }
 #header-bg{
     background-image: url(./images/background.jpg);
+    height: 1000px;
 }
 #nav{
     display: flex;
@@ -20,7 +21,7 @@
     font-family: "Open Sans";
 }
 #nav img{
-    padding: 10px 60px 10px 60px;
+    padding: 10px 10px 10px 100px;
     border-radius: 25px;
     background-color: #ffffff;
 }
@@ -28,9 +29,22 @@
     padding: 50px 0px 10px 70px;
 }
 #header-2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    position: relative;
+}
+#pos-img-1{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+#pos-img-2{
+    position: absolute;
+    right: 600px;
+    bottom:10px;
+}
+#pos-img-3{
+    position: absolute;
+    left:650px;
+    top: 320px;
 }
 #header-2-1 h1{
     padding: 50px 0px 10px 50px;
@@ -60,15 +74,12 @@
     cursor: pointer;
 }
 #header-2-1 p{
-    padding: 10px 0px 40px 10px;
+    padding: 10px 0px 50px 50px;
     font-size: 20px;
     color: #ffffff;
     font-weight: 400;
     font-style: italic;
     font-family: "Open Sans";
-}
-#header-2-2 #img-1{
-    width: 300px;
 }
 #section-1{
     background-color: #ffffff;
@@ -230,8 +241,6 @@
 }
 #section-5{
     background-image: url(./images/background.jpg);
-    width: 1263px;
-    height: 900px;
 }
 #section-5 h1{
     padding-top: 50px;
@@ -248,13 +257,13 @@
     font-family: "Montserrat";
     text-align: center;
 }
-#section-5 #img-7-1{
+#img-7-1{
     width: 800px;
     height: 800px;
     padding: 30px 0px 30px 400px;
     position: absolute;
 }
-#section-5 #img-7-2{
+#img-7-2{
     width:500px;
     height: 500px;
     margin: 500px 100px 100px 80px;
