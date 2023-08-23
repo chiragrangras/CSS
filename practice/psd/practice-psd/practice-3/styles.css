@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header-bg{
+    background-image: url(./images/background.jpg);
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav a{
+    padding: 30px 30px 30px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+#nav img{
+    padding: 10px 60px 10px 60px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+#header-1{
+    padding: 50px 0px 10px 70px;
+}
+#header-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-2-1 h1{
+    padding: 50px 0px 10px 50px;
+    font-size: 70px;
+    color: #ffffff;
+    font-family: "Reey";
+}
+#header-2-1 h2{
+    padding: 50px 0px 10px 50px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+}
+.btn{
+    border: none;
+    margin:20px 20px 40px 70px;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #2e3034;
+    font-weight: 800;
+    font-family: "Open Sans";
+    cursor: pointer;
+}
+#header-2-1 p{
+    padding: 10px 0px 40px 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans";
+}
+#header-2-2 #img-1{
+    width: 300px;
+}
+#section-1{
+    background-color: #ffffff;
+}
+#section-1-1 h1{
+    padding: 50px;
+    font-size: 50px;
+    color:#222328;
+    font-weight: 400;
+    font-family: "Reey";
+    text-align: center;
+}
+#section-1-1 p{
+    padding: 10px;
+    font-size: 30px;
+    color:#222328;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+#section-1-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#section-1-2-1 h1{
+    font-size: 29px;
+    color: #343434;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+#section-1-2-1 p{
+    font-size: 20px;
+    color: #343434;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+.btn-1{
+    margin:10px 10px 50px 550px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color:  #343434;
+    font-weight: 800;
+    font-family: "Open Sans";
+    cursor: pointer;
+}
+#section-2{
+    background-color: #27292c;
+}
+#section-2 h1{
+    padding: 50px 0px 50px 0px;
+    font-size: 30px;
+    font-family: "Reey";
+    color: #ffffff;
+    text-align: center;
+}
+#section-2-1{
+    display: flex;
+    justify-content: space-around;
+}
+#section-2-1 p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.btn-2{
+    margin:30px 10px 30px 550px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 26px;
+    background-color: #ffffff;;
+    color: #27292c;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+#section-3{
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+#section-3-1 img{
+    width: 600px;
+    margin: 50px 0px 30px 20px;
+}
+#section-3-2 h1{
+    padding: 50px 0px 30px 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #27292c;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+#section-3-2 p{
+    padding: 10px 0px 10px 20px;
+    font-size: 30px;
+    color: #27292c;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.btn-3{
+    font-size: 29px;
+    text-transform: uppercase;
+    background-color: #303030;
+    color: #ffffff;
+    border: none;
+    margin: 50px 0px 0px 20px;
+    padding:20px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    cursor: pointer;
+}
+#section-4{
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+#section-4-1 h1{
+    padding: 50px 0px 50px 50px;
+    font-size: 60px;
+    color: #27292c;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+#section-4-1 p{
+    padding: 10px 0px 10px 50px;
+    font-size: 30px;
+    color: #27292c;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.btn-4{
+    font-size: 29px;
+    text-transform: uppercase;
+    background-color: #303030;
+    color: #ffffff;
+    border: none;
+    margin: 30px 0px 30px 50px;
+    padding:20px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    cursor: pointer;
+}
+#section-4-2 img{
+    width: 600px;
+    margin: 20px 0px 20px 50px;
+}
+#section-5{
+    background-image: url(./images/background.jpg);
+    width: 1263px;
+    height: 900px;
+}
+#section-5 h1{
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: "Reey";
+    color: #f8f6f1;
+    text-align: center;
+}
+#section-5 p{
+    padding-top: 50px;
+    font-size: 25px;
+    color: #f8f6f1;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#section-5 #img-7-1{
+    width: 800px;
+    height: 800px;
+    padding: 30px 0px 30px 400px;
+    position: absolute;
+}
+#section-5 #img-7-2{
+    width:500px;
+    height: 500px;
+    margin: 500px 100px 100px 80px;
+    position: relative;
+}
+#section-6{
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+#section-6-1 h1{
+    padding:300px 0px 0px 100px;
+    font-size: 42px;
+    color: #393939;
+    font-family: "Reey";
+}
+#section-6-1 p{
+    padding:30px 0px 0px 100px;
+    font-size: 19px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+#section-6-2 h1{
+    padding:300px 0px 0px 100px;
+    font-size: 42px;
+    color: #393939;
+    font-family: "Reey";
+}
+#section-6-2 p{
+    padding:30px 0px 0px 100px;
+    font-size: 19px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+#section-6-3 h1{
+    padding:300px 0px 0px 100px;
+    font-size: 42px;
+    color: #393939;
+    font-family: "Reey";
+}
+#section-6-3 p{
+    padding:30px 0px 0px 100px;
+    font-size: 19px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+#section-7 p{
+    padding:140px 0px 40px 100px;
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+}
+#section-7 h1{
+    padding:10px 0px 50px 10px;
+    font-size: 21px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+#section-8{
+    width: 1262px;
+    background-color: #27292c;
+}
+#section-8-1 h1{
+    padding:60px 0px 10px 10px;
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
