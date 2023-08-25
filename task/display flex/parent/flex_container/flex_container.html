@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex_container</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .contaniner {
+      width: 90%;
+      margin: 0 auto;
+      border: 5px solid blue;
+    }
+    .row {
+      margin:10px 10px 10px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      border: 5px solid red;
+    }
+    .col-10 {
+      margin:10px 10px 10px 10px;
+      width: 50%;
+      border: 3px solid orange;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-10">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+          eveniet.
+        </div>
+        <div class="col-90">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
+          architecto dolorum quis quae. Quia fuga vel sit distinctio? Deleniti
+          nihil, harum repudiandae perferendis saepe voluptatum amet ratione vel
+          dolores, adipisci laboriosam, dolor deserunt fuga suscipit nostrum aut
+          accusamus! Praesentium ipsam voluptas qui et dolorum tempora eveniet
+          officia reprehenderit totam assumenda!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
