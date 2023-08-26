@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.conatnier {
+    width: 90%;
+    margin: 0 auto;
+    background-color: crimson;
+    color: aliceblue;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    width: 100%;
+}
+#col-11{
+    width: 50%;
+    position: relative;
+}

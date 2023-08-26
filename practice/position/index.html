@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position in Css</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    body {
+      background-color: tan;
+    }
+    .conatnier {
+      width: 90%;
+      margin: 0 auto;
+      background-color: crimson;
+      color: aliceblue;
+    }
+    .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px 0px 100px;
+    }
+    img {
+      width: 560px;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 30px;
+      padding: 10px;
+    }
+    .col-50 {
+      width: 50%;
+      position: relative;
+    }
+    img[class*="offer"] {
+      position: absolute;
+      width: 100px;
+    }
+    .offer-1 {
+      top: 300px;
+      left: 520px;
+    }
+    .offer-2 {
+      top: 300px;
+      left:1089px;
+    }
+  </style>
+  <body>
+    <div class="conatnier">
+      <h1>Hello</h1>
+      <p>Enjoy Your Show</p>
+      <div class="row">
+        <div id="col-50">
+          <img src="./img/music_event.jpg" />
+          <img src="./img/offer.jpg" class="offer-1" />
+        </div>
+        <div id="col-50">
+          <img src="./img/music_event.jpg" />
+          <img src="./img/offer.jpg" class="offer-2" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
