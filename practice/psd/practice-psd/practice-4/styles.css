@@ -2,10 +2,20 @@
     margin: 0;
     padding: 0;
 }
+body{
+    position: relative;
+}
 .header{
     width: 1262px;
-    height: 800px;
+    height: 990px;
     background-image: url(./images/bg-img.jpg);
+}
+#mask-1{
+    position: absolute;
+    top:0px;
+}
+#mask-1 img{
+    width: 1262px;
 }
 #nav{
     padding:20px;
@@ -13,11 +23,15 @@
     justify-content: space-around;
     align-items: center;
 }
+#nav img{
+    z-index: 2;
+}
 #nav a{
     text-decoration: none;
     font-size: 25px;
     text-transform: uppercase;
     color: black;
+    z-index: 2;
 }
 #img-2{
     padding: 10px 10px 10px 100px;
@@ -60,6 +74,13 @@
     font-weight: 400;
     font-style: italic;
     font-family: "Open Sans";
+}
+#mask-2{
+    position: absolute;
+    top: 820px;
+}
+#mask-2 img{
+    width: 1262px;
 }
 #section-1-1 h1{
     padding-top: 50px;
