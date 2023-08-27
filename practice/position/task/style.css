@@ -4,21 +4,63 @@
     box-sizing: border-box;
     text-align: center;
 }
-.conatnier {
-    width: 90%;
+.container {
     margin: 0 auto;
-    background-color: crimson;
-    color: aliceblue;
+    background-color: #e7e4e4;
+    color: rgb(12, 50, 83);
 }
 .row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    column-gap: 10px;
+    position: relative;
 }
 img {
-    width: 100%;
+    width: 18%;
 }
-#col-11{
-    width: 50%;
-    position: relative;
+.img-1{
+    position: absolute;
+    left: -25px;
+    top: 0px;
+}
+.img-2{
+    position: absolute;
+    left: 500px;
+    top: -25px;
+}
+.img-3{
+    position: absolute;
+    top: 0px;
+    right: -25px;
+}
+.img-4{
+    position: absolute;
+    top: 180px;
+    left: -25px;
+}
+.img-5{
+    position: absolute;
+    top: 180px;
+    left: 500px;
+}
+.img-6{
+    position: absolute;
+    top: 180px;
+    right: -25px;
+}
+.img-7{
+    position: absolute;
+    top: 385px;
+    left: -25px;
+}
+.img-8{
+    position: absolute;
+    top: 385px;
+    left: 500px;
+}
+.img-9{
+    position: absolute;
+    top:385px;
+    right: -25px;
 }
