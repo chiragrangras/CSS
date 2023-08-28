@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-design.png);
+}
+#header{
+    margin-top: 40px;
+}
+#contact-container{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+#logo{
+    width: 75%;
+}
+#contact{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+#contact p{
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: right;
+}
+#nav-container{
+    display: flex;
+}
+#nav-empty-space{
+    width: 50%;
+}
+#nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";  
+}
+#slogan{
+    width:430px;
+    height: 40px;
+    border: 2px dashed #3d2514;
+    margin: 150px 0px 0px 30px;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 600;
+    font-family: "Bebas Neue";
+}
+#burger-txt{
+    margin: 20px;
+    font-size: 114px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+#week-txt{
+    margin: 20px;
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 500;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+#content{
+    position: relative;
+}
+#glow-img{
+    position: absolute;
+    top: -400px;
+    right:-200px;
+}
