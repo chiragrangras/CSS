@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Position</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: brown;
+      overflow: hidden;
+    }
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      background-color: aquamarine;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 50px;
+      background-color: tan;
+    }
+    .col-33 {
+      width: 33.33%;
+      position: relative;
+      background-color: blueviolet;
+    }
+    img {
+      width: 100%;
+    }
+    img[class*="shape"] {
+      width: 200px;
+      position: absolute;
+    }
+    .shape-1 {
+      top: -30px;
+      left: -190px;
+    }
+    .shape-2 {
+      top: 0px;
+      left: 190px;
+      z-index: 3;
+      width: 100px !important;
+    }
+    .shape-3 {
+      top: -30px;
+      right:-190px;
+    }
+    .event {
+      position: relative;
+      z-index: 2;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-1" />
+        </div>
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-2" />
+        </div>
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-3" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-1" />
+        </div>
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-2" />
+        </div>
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-3" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-1" />
+        </div>
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-2" />
+        </div>
+        <div class="col-33">
+          <img src="../img/quickstyle_india_tour.jpg" class="event" />
+          <img src="../img/offer.jpg" class="shape-3" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
