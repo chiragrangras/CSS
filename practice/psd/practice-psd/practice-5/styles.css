@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+#bg-container{
     background-image: url(./images/bg-design.png);
+    padding-top: 10px;
+    height: 800px;
 }
+
 #header{
     margin-top: 40px;
 }
@@ -99,8 +103,8 @@ body{
 }
 #fries-img{
     position: absolute;
-    top: 300px;
-    left: 790px;
+    top: 290px;
+    left: 760px;
     z-index: 1;
 }
 #burger-img{
@@ -111,8 +115,9 @@ body{
 }
 #discount-img img{
     position: absolute;
-    top: 650px;
+    top: 550px;
     right: 710px;
+    z-index: 3;
 }
 #discount-img p{
     position: absolute;
@@ -121,17 +126,19 @@ body{
     font-size: 30px;
     color: white;
 }
+
 #content-2{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     background-color: #ffffff;
+    position: relative;
 }
 #content-2-1 img{
-    margin: 50px 30px 20px 50px;
+    margin: 50px 30px 20px 34px;
     width: 800px;
     height: 680px;
 }
+
 #content-2-1 h1{
     font-size: 50px;
     text-transform: uppercase;
@@ -139,8 +146,8 @@ body{
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
-    top: 700px;
-    left: 100px;
+    top: 100px;
+    left: 60px;
 }
 #content-2-1 p{
     font-size: 30px;
@@ -149,13 +156,18 @@ body{
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
-    top: 760px;
-    left: 100px;
+    top: 170px;
+    left: 60px;
+}
+#content-2-2 {
+    margin: 50px 0px 0px 10px;
 }
 #content-2-2 img{
-    margin: 40px 10px 10px 10px;
     width: 780px;
     height: 320px;
+}
+#content-2-2 img:nth-child(4){
+    margin-top: 33px;
 }
 #content-2-2 h1{
     font-size: 50px;
@@ -164,8 +176,8 @@ body{
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
-    top: 700px;
-    right:410px;
+    top: 100px;
+    right:440px;
 }
 #content-2-2 p{
     font-size: 40px;
@@ -174,8 +186,8 @@ body{
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
-    top:750px;
-    right:500px;
+    top:170px;
+    right:520px;
 }
 #content-2-2 h2{
     font-size: 50px;
@@ -184,8 +196,8 @@ body{
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
-    bottom:-310px;
-    right:410px;
+    top: 440px;
+    right:430px;
 }
 #content-2-2 h3{
     font-size: 50px;
@@ -194,8 +206,8 @@ body{
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
-    bottom:-370px;
-    right:380px;
+    top: 500px;
+    right:400px;
 }
 #content-3{
     background-color: #ffffff;
@@ -222,9 +234,81 @@ body{
     font-family: "Alfa Slab One";
 }
 #content-3 p{
-    margin-top: 20px;
+    margin: 20px;
     font-size: 20px;
     color: #3d2514;
     font-weight: 400;
     font-family: "Alfa Slab One";
+}
+#content-4{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#content-4 img{
+    height: 300px;
+}
+#content-4-1 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+#content-4-1 p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#content-4-2 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+#content-4-2 p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#content-4-3 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+#content-4-3 p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.btn-1{
+    margin: 20px 0px 20px 80px;
+    width: 190px;
+    height: 57px;
+    background-color: #bf2222;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }
