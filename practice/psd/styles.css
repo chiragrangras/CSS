@@ -189,19 +189,40 @@
     justify-content: space-around;
     margin-top: 30px;
 }
-#section-5-2-1{
+.overlay-container{
     text-align: center;
-    width: 350px;
+    position: relative;
+    width: 351px;
     background-color: white;
 }
-#section-5-2-1 p{
+.overlay-padding{
+    z-index: 2;
+    position: absolute;
+    top: 245px;
+    left: 100px;
+    padding: 10px;
+    background-color: #f8eed3;
+    width: 147px;
+    height: 44px;
+}
+.overlay-caption{
+    /* z-index: 2; */
+    /* position: absolute; */
+    /* top: 255px;
+    left: 115px; */
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    color: red;
+    border: 1px solid red;
+}
+.overlay-container p{
     margin-top: 50px;
 }
 .btn_3{
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px; 
     border: none;
-    background-color: #b13941;
-    color: #f8eed3;
+    color:#f8eed3;
+    background-color:#b13941;
     font-size: 20px;
     font-family: "PT Serif";
     cursor: pointer;
@@ -212,18 +233,20 @@
     display: flex;
     justify-content: space-between;
     background-color: #b13941;
-    padding: 50px 10px 50px 10px;
+    padding: 50px 20px 50px 20px;
 }
-#section-6-1{
-    margin: 50px 0px 30px 0px;
-    font-size: 20px;
+#section-6-1 h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
     color:#f8eed3;
+    font-weight: 400;
     font-family: "Yeseva One";
     text-align: center;
 }
 #section-6-1 p{
-    margin: 50px 0px 30px 0px;
-    padding-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     font-size: 20px;
     color:#f8eed3;
     font-weight: 400;
@@ -233,13 +256,13 @@
 #section-6-1-1{
     display: flex;
 }
-#social-media{
-    background-color: #f8edda;
+.social-media{
+    background-color: #feedda;
     height: 30px;
     width: 30px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* This centers items vertically */
+    justify-content: center; /* This centers items horizontally */
     margin-left: 30px;
 }
 #section-7{
@@ -247,7 +270,7 @@
     background-color: white;
 }
 .contact-us{
-    margin: 30px 0px 30px 20px;
+    margin: 30px 0px 30px 50px;
 }
 .contact-us h1{
     font-size: 58px;
@@ -268,7 +291,14 @@
     margin-top: 10px;
 }
 .contact-us #Message{
-    height: 100px;
+    display: block;
+    width: 590px;
+    height: 150px;
+    font-size: 21px;
+    text-align: left;
+    border: 1.5px solid #b0b0b0;
+    background-color: #efefef;
+    color: #b0b0b0;
 }
 .btn_4{
     margin-top: 35px;
@@ -292,3 +322,39 @@
     font-weight: 700;
     font-family: "EB Garamond";
 }
+
+/* 
+DRY prinicple: Do not repeat yourself.
+
+Code Refactoring: Improving the code by rewriting it.
+
+Code readability: It means writing the code with proper structure such that
+it is easy to read for other developers.
+
+Clean code: It means to write code in a cleaner manner using best practices and
+avoiding bad practices like forcing things using !important.
+
+Steps to overlay a div over an image:
+
+    1. Put everything inside a container div e.g. our div with class .overlay-container.
+    2. Set position: relative for .overlay-container class.
+    3. Set position: absolute for the div which you want to overlay. 
+        E.g. our div with .overlay-padding class.
+    4. Set top and left pixel accordingly for the div which you want to overlay. 
+        E.g. our div with .overlay-padding class.
+    5. Set z-index to 2 (or higher value depending 
+        on how many stacking elements you have) for 
+        the div which you want to overlay. E.g. our div with .overlay-padding class.
+
+Steps to add space before the border starts:
+
+    1. Create an additional div (e.g.: .overlay-padding)
+        outside the div which has border (e.g.: .overlay-caption).
+    2. Add padding to the additional div (e.g. .overlay-padding)
+    3. Set the background-color of additional div to be same as div which has border.
+    4. Remove the background-color of the div which has border since it will
+        inherit the background-color property of the parent div.
+    5. (Optional): If your div with the border was using position: absolute and
+        z-index, then move those properties to the parent div. 
+        Also, adjust the top and left positions in the parent div.
+*/
