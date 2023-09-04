@@ -312,3 +312,40 @@
     border: none;
     cursor: pointer;
 }
+#content-5{
+    background-color: white;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    width: 99%;
+}
+#content-5-1 h1{
+    margin: 40px 50px 0px 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+#content-5-1 h2{
+    margin: 10px 0px 0px 80px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 900;
+    font-family: "Alfa Slab One";
+}
+#content-5-1 p{
+    margin: 10px 0px 0px 80px;
+    font-size: 25px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+#content-5-1 img{
+    margin: 150px 0px 40px 80px;
+}
+#content-6{
+    height: 200px;
+}
