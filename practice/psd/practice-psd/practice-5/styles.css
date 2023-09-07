@@ -463,8 +463,16 @@
     top: 980px;
     right: 420px;
 }
+#footer-3-3 {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 1040px;
+    left: 850px;
+}
 #footer-3-3 i{
     z-index: 4;
+    position: relative;
     color:white;
     margin:30px 30px 20px 0px;
     font-size: 50px;
