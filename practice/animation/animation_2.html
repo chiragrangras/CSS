@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation-2</title>
+    <style>
+      div {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        background-color: red;
+        color: white;
+        position: relative;
+        animation: animation 5s infinite;
+      }
+      #div1 {animation-timing-function: linear;}
+      #div2 {animation-timing-function: ease;}
+      #div3 {animation-timing-function: ease-in;}
+      #div4 {animation-timing-function: ease-out;}
+      #div5 {animation-timing-function: ease-in-out;}
+
+      @keyframes animation {
+        from {
+          left: 0px;
+        }
+        to {
+          left: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Linear">Linear</div>
+    <div id="Ease">Ease</div>
+    <div id="Ease-in">Ease-in</div>
+    <div id="Ease-out">Ease-out</div>
+    <div id="Ease-in-out">Ease-in-out</div>
+    <!-- <div id="Ease-out-in">Ease-out-in</div> -->
+  </body>
+</html>
