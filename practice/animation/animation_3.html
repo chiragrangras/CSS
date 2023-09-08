@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ambient light Effect</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 100vh;
+        background: #050505;
+      }
+      .cube {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        transform-style: preserve-3d;
+        animation: animation 4s linear infinite;
+      }
+      .cube div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+      }
+      @keyframes animation {
+        0% {
+          transform: rotateX(-30deg) rotateY(0deg);
+        }
+        100% {
+          transform: rotateX(-30deg) rotateY(360deg);
+        }
+      }
+      .cube div span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#151515, #00ec00);
+        transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
+      }
+      .cube-small {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        transform-style: preserve-3d;
+        animation: animation 4s linear infinite;
+      }
+      .cube-small div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+      }
+      .cube-small div span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#151515, #ff0202);
+        transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cube-small">
+      <div>
+        <span style="--i: 0"></span>
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+    </div>
+    <div class="cube">
+      <div>
+        <span style="--i: 0"></span>
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+    </div>
+    <div class="cube-small">
+      <div>
+        <span style="--i: 0"></span>
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+    </div>
+  </body>
+</html>

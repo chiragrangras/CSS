@@ -8,7 +8,7 @@
       div {
         width: 100px;
         height: 50px;
-        font-size: 20px;
+        font-weight: bold;
         background-color: red;
         color: white;
         position: relative;
@@ -21,21 +21,16 @@
       #div5 {animation-timing-function: ease-in-out;}
 
       @keyframes animation {
-        from {
-          left: 0px;
-        }
-        to {
-          left: 500px;
-        }
+        from {left: 0px;}
+        to {left: 300px;}
       }
     </style>
   </head>
   <body>
-    <div id="Linear">Linear</div>
-    <div id="Ease">Ease</div>
-    <div id="Ease-in">Ease-in</div>
-    <div id="Ease-out">Ease-out</div>
-    <div id="Ease-in-out">Ease-in-out</div>
-    <!-- <div id="Ease-out-in">Ease-out-in</div> -->
+    <div id="div1">Linear</div>
+    <div id="div2">Ease</div>
+    <div id="div3">Ease-in</div>
+    <div id="div4">Ease-out</div>
+    <div id="div5">Ease-in-out</div>
   </body>
 </html>
