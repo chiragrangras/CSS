@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flip Card</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      position: relative;
+      width: 250px;
+      height: 320px;
+    }
+    .thecard {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease;
+    }
+    .thecard:hover {
+      transform: rotateY(180deg);
+    }
+    .thefront {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background: #ffc728;
+      color: #333;
+      border-radius: 20px;
+    }
+    .thefront h1 {
+      text-align: center;
+      font-family: "zilla slab", sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .thefront p {
+      text-align: center;
+      font-family: "zilla slab", sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+    }
+    .theback {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background: #5fcf80;
+      color: #fff;
+      border-radius: 20px;
+      transform: rotateY(180deg);
+    }
+    .theback h1 {
+      text-align: center;
+      font-family: "zilla slab", sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .theback p {
+      text-align: center;
+      font-family: "zilla slab", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="thecard">
+        <div class="thefront">
+          <h1>Front of Card</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            blanditiis voluptatem tenetur natus distinctio molestiae ducimus
+            eaque, incidunt quidem maiores.
+          </p>
+        </div>
+        <div class="theback">
+          <h1>Back of Card</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim,
+            quibusdam nostrum libero quidem laudantium dolores porro. Inventore
+            minus expedita, laboriosam atque a ullam repellat rem?
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,101 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log In</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: black;
-        }
-        .login-box{
-            position: absolute;
-            width: 400px;
-            height: 450px;
-            background-color:white;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        h1{
-            font-size: 20px;
-            color: black;
-            text-align: left;
-        }
-        .input-box{
-            width: 100%;
-            margin: 30px 0;
-        }
-        .input-box input{
-            padding: 10px 90px 10px 10px;
-        }
-        .btn{
-            width: 100%;
-            padding: 10px 0px;
-            background-color: green;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        .remember-forgot{
-            margin-top: 15px;
-            font-size: .9em;
-            color: black;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .remember-label{
-            margin-left: 10px;
-        }
-        #header-container{
-            display: flex;
-        }
-        #header-content{
-            width: 70%;
-        }
-        #facebook-icon{
-            width: 15%;
-        }
-        #twitter-icon{
-            width: 15%;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: black;
+      }
+      .logo {
+        width: 100%;
+        height: 100px;
+      }
+      .login-box {
+        position: absolute;
+        width: 400px;
+        height: 450px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        font-size: 20px;
+        color: black;
+        text-align: left;
+      }
+      .input-box {
+        width: 100%;
+        margin: 30px 0;
+      }
+      #header-container {
+        display: flex;
+      }
+      #header-content {
+        width: 70%;
+      }
+      #facebook-icon {
+        width: 15%;
+      }
+      #twitter-icon {
+        width: 15%;
+      }
+      .input-box input {
+        padding: 10px 90px 10px 10px;
+      }
+      .btn {
+        width: 100%;
+        padding: 10px 0px;
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      .remember-forgot {
+        margin-top: 15px;
+        font-size: 0.9em;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .not-memeber {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+      }
+      .remember-label {
+        margin-left: 10px;
+      }
     </style>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="login-box">
-        <form action="">
-            <div id="header-container">
-                <h1 id="header-content">Sign In</h1>
-                <i id="facebook-icon"></i>
-                <i id="twitter-icon"></i>
-            </div>
-            <div class="input-box">
-                <input type="username" placeholder="Username">
-            </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password">
-            </div>
-            <button class="btn">Sign In</button>
-            <div class="remember-forgot">
-                <div class="remember-me">
-                    <input type="checkbox" id="remember-me"/><label class="remember-label" for="remember-me">Remember me</label>
-                </div>
-                <div>
-                    <a href="#">Forgot Password</a>
-                </div>
-            </div>
-        </form>
+      <form action="">
+        <img src="./logo.jpg" class="logo" />
+        <div id="header-container">
+          <h1 id="header-content">Sign In</h1>
+          <div id="facebook-icon"><i class="fa-brands fa-facebook"></i></div>
+          <div id="twitter-icon">
+            <i class="fa-brands fa-square-twitter"></i>
+          </div>
+        </div>
+        <div class="input-box">
+          <input type="username" placeholder="Username" />
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Password" />
+        </div>
+        <button class="btn">Sign In</button>
+        <div class="remember-forgot">
+          <div class="remember-me">
+            <input type="checkbox" /><label class="remember-label"
+              >Remember me</label
+            >
+          </div>
+          <div>
+            <a href="#">Forgot Password</a>
+          </div>
+        </div>
+        <div class="not-memeber">
+          Not a memeber?
+          <a href="#">Sign up</a>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
