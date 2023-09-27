@@ -127,12 +127,12 @@
     justify-content: space-around;
     margin-top: 50px;
 }
-#section-3-2-1{
+.section-3-2-1{
     padding-top: 20px;
     background-color: #e8631c;
     text-align: center;
 }
-#section-3-2-1 h1{
+.section-3-2-1 h1{
     padding-top: 50px;
     font-size: 37px;
     text-transform: uppercase;
@@ -141,7 +141,7 @@
     font-family: "Oswald";
     text-align: center;
 }
-#section-3-2-1 p{
+.section-3-2-1 p{
     padding-top: 20px;
     font-size: 20px;
     color: #ffffff;
@@ -460,11 +460,15 @@ No media query for `xs` since this is the default in Bootstrap */
     }
     #section-3-2{
         flex-direction: column;
+        gap: 20px;
     }
-    #section-3-2-1 h1{
+    .section-3-2-1{
+        padding-bottom: 20px;
+    }
+    .section-3-2-1 h1{
         font-size: 30px;
     }
-    #section-3-2-1 p{
+    .section-3-2-1 p{
         font-size: 30px;
     }
     .btn-1{
@@ -665,11 +669,15 @@ No media query for `xs` since this is the default in Bootstrap */
     }
     #section-3-2{
         flex-direction: column;
+        gap: 20px;
     }
-    #section-3-2-1 h1{
+    .section-3-2-1{
+        padding-bottom: 20px;
+    }
+    .section-3-2-1 h1{
         font-size: 30px;
     }
-    #section-3-2-1 p{
+    .section-3-2-1 p{
         font-size: 30px;
     }
     .btn-1{
@@ -870,11 +878,15 @@ No media query for `xs` since this is the default in Bootstrap */
     }
     #section-3-2{
         flex-direction: column;
+        gap: 20px;
     }
-    #section-3-2-1 h1{
+    .section-3-2-1{
+        padding-bottom: 20px;
+    }
+    .section-3-2-1 h1{
         font-size: 35px;
     }
-    #section-3-2-1 p{
+    .section-3-2-1 p{
         font-size: 35px;
     }
     .btn-1{
@@ -1089,14 +1101,14 @@ No media query for `xs` since this is the default in Bootstrap */
         justify-content: space-around;
         margin-top: 50px;
     }
-    #section-3-2-1{
+    .section-3-2-1{
         width: 372px;
         height: 400px;
         padding-top: 20px;
         background-color: #e8631c;
         text-align: center;
     }
-    #section-3-2-1 h1{
+    .section-3-2-1 h1{
         padding-top: 50px;
         font-size: 37px;
         text-transform: uppercase;
@@ -1105,7 +1117,7 @@ No media query for `xs` since this is the default in Bootstrap */
         font-family: "Oswald";
         text-align: center;
     }
-    #section-3-2-1 p{
+    .section-3-2-1 p{
         padding-top: 20px;
         font-size: 20px;
         color: #ffffff;
@@ -1316,16 +1328,16 @@ No media query for `xs` since this is the default in Bootstrap */
         justify-content: space-around;
         margin-top: 50px;
     }
-    #section-3-2-1{
+    .section-3-2-1{
         width: 440px;
         height: 400px;
         padding-top: 20px;
     }
-    #section-3-2-1 h1{
+    .section-3-2-1 h1{
         padding-top: 50px;
         font-size: 40px;
     }
-    #section-3-2-1 p{
+    .section-3-2-1 p{
         padding-top: 20px;
         font-size: 25px;
     }

@@ -275,16 +275,13 @@
     padding: 100px 0px 20px 50px;
 }
 .footer-conatiner h1{
-    padding: 100px 0px 20px 50px;
     font-size: 50px;
 }
 .footer-conatiner p{
-    padding: 50px 0px 20px 50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .footer-conatiner img{
     padding: 10px 0px 20px 50px;
-    font-size: 30px;
 }
 .footer-conatiner{
     display: flex;
@@ -293,8 +290,18 @@
     font-weight: 700;
     font-family: "EB Garamond";
 }
-.footer-conatiner h2{
-    padding: 180px 0px 10px 0px;
+#footer-list-1 h2{
+    font-size: 50px;
+}
+dl{
+    padding-top: 20px;
+    font-size: 20px;
+}
+#footer-list-2 h2{
+    font-size: 50px;
+}
+#footer-list-3 h2{
+    font-size: 50px;
 }
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
@@ -414,6 +421,43 @@ No media query for `xs` since this is the default in Bootstrap */
         border-radius:10px;
         font-size: 15px;
     }
+    .footer-conatiner{
+        padding: 50px 0px 10px 10px;
+    }
+    .footer-conatiner h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .footer-conatiner p{
+        text-align: center;
+        padding: 20px;
+        font-size: 10px;
+    }
+    .footer-conatiner img{
+        padding: 10px 0px 20px 60px;
+    }
+    .footer-conatiner{
+        flex-direction: column;
+    }
+    #footer-list-1 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    dl{
+        padding-top: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+    #footer-list-2 h2{
+        padding-top: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #footer-list-3 h2{
+        padding-top: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -529,6 +573,43 @@ No media query for `xs` since this is the default in Bootstrap */
         height: 25px;
         border-radius:10px;
         font-size: 20px;
+    }
+    .footer-conatiner{
+        padding: 50px 0px 10px 10px;
+    }
+    .footer-conatiner h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .footer-conatiner p{
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .footer-conatiner img{
+        padding: 10px 0px 20px 100px;
+    }
+    .footer-conatiner{
+        flex-direction: column;
+    }
+    #footer-list-1 h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    dl{
+        padding-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #footer-list-2 h2{
+        padding-top: 20px;
+        font-size: 35px;
+        text-align: center;
+    }
+    #footer-list-3 h2{
+        padding-top: 20px;
+        font-size: 35px;
+        text-align: center;
     }
 }
 /* Large devices (desktops, 992px and up) */
@@ -647,6 +728,43 @@ No media query for `xs` since this is the default in Bootstrap */
         border-radius:10px;
         font-size: 25px;
     }
+    .footer-conatiner{
+        padding: 50px 0px 10px 10px;
+    }
+    .footer-conatiner h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .footer-conatiner p{
+        text-align: center;
+        padding: 20px;
+        font-size: 25px;
+    }
+    .footer-conatiner img{
+        padding: 20px 0px 40px 140px;  
+    }
+    .footer-conatiner{
+        flex-direction: column;
+    }
+    #footer-list-1 h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    dl{
+        padding-top: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    #footer-list-2 h2{
+        padding-top: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+    #footer-list-3 h2{
+        padding-top: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
 }
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -764,6 +882,41 @@ No media query for `xs` since this is the default in Bootstrap */
         border-radius:10px;
         font-size: 30px;
     }
+    .footer-conatiner{
+        padding: 50px 0px 10px 10px;
+    }
+    .footer-conatiner h1{
+        font-size: 45px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .footer-conatiner p{
+        padding: 20px;
+        font-size: 25px;
+        text-align: left;
+    }
+    .footer-conatiner img{
+        padding: 40px 0px 40px 50px;  
+    }
+    .footer-conatiner{
+        flex-direction: row;
+    }
+    #footer-list-1 h2{
+        padding: 0px 0px 20px 0px;
+        font-size: 40px;
+    }
+    dl{
+        padding: 0px 0px 20px 0px;
+        font-size: 20px;
+    }
+    #footer-list-2 h2{
+        padding: 0px 0px 20px 0px;
+        font-size: 40px;
+    }
+    #footer-list-3 h2{
+        padding: 0px 0px 20px 0px;
+        font-size: 40px;
+    }
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
@@ -880,5 +1033,40 @@ No media query for `xs` since this is the default in Bootstrap */
         height: 60px;
         border-radius:10px;
         font-size: 35px;
+    }
+    .footer-conatiner{
+        padding: 50px 0px 10px 10px;
+    }
+    .footer-conatiner h1{
+        font-size: 55px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .footer-conatiner p{
+        padding: 20px;
+        font-size: 30px;
+        text-align: left;
+    }
+    .footer-conatiner img{
+        padding: 40px 0px 40px 50px;  
+    }
+    .footer-conatiner{
+        flex-direction: row;
+    }
+    #footer-list-1 h2{
+        padding: 0px 0px 20px 0px;
+        font-size: 55px;
+    }
+    dl{
+        padding: 0px 0px 20px 0px;
+        font-size: 30px;
+    }
+    #footer-list-2 h2{
+        padding: 0px 0px 20px 0px;
+        font-size: 55px;
+    }
+    #footer-list-3 h2{
+        padding: 0px 0px 20px 0px;
+        font-size: 55px;
     }
 }
