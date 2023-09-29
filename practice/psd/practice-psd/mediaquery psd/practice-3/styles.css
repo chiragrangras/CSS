@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "PT serif";
+    text-align: center;
+    background-color: #b13941;
+}
+.nav{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "PT serif";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+#section-1{
+    background-image: url(./Images/bg-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 90px;
+    color: #feedda;
+    font-family: "PT serif";
+    text-align: center;
+}
+#section-1-2{
+    font-size: 20px;
+    text-align: center;
+}
+.btn{
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline;
+    padding: 10px;
+    background-color: #b13941;
+    color: white;
+    font-size: 20px;
+    font-family: "PT serif";
+    cursor: pointer;
+}
+#section-2{
+    background-color: #b13941;
+    display: flex;
+    justify-content: space-around;
+}
+.img-logo{
+    padding: 10px 0px 10px 0px;
+}
+#section-2-2 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    color: #feedda;
+    font-family:"Yeseva One";
+    font-weight: 400;
+    text-align: left;
+}
+#section-2-2 p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #feedda;
+    font-family:"Yeseva One";
+    font-weight: 400;
+    text-align: left;
+}
+.btn_1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: none;
+    color:#b13941;
+    background-color: #f8eed3;
+    font-size: 25px;
+    font-family: "PT Serif";
+    cursor: pointer;
+    text-align: left;
+    padding: 10px;
+}
+#section-3-1 .img-logo{
+    padding: 0px;
+}
+#section-3{
+    background-color:#f8eed3;
+    display: flex;
+    justify-content: space-between;
+}
+#section-3-2 h1{
+    margin: 50px 0px 30px 0px;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: left;
+}
+#section-3-2 p{
+    width: 576px;
+    height: 180px;
+    font-size: 21px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: left;
+}
+#section-3-2 a{
+    color: red; 
+}
+#section-4{
+    background-color: #b13941;
+    display: block;
+}
+#section-4-1 h1{
+    padding: 20px;
+    font-size: 50px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+#section-4-1 p{
+    font-size: 21px;
+    margin-top: 20px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+}
+#section-4-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.coffee-menu{
+    display: flex;
+    background-color: white;
+    width: 40%;
+}
+#section-4-2 h1{
+    margin-top: 20px;
+    font-size: 33px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.coffee-menu div{
+    margin-left: 20px;
+}
+.coffee-menu p{
+    margin-top: 20px;
+}
+.coffee-menu .btn_2{
+    margin-top: 40px;
+    border: none;
+    color:#f8eed3;
+    background-color:#b13941;
+    font-size: 25px;
+    font-family: "PT Serif";
+    cursor: pointer;
+    text-align: left;
+    padding: 10px;
+}
+#section-5{
+    background-color:#f8eed3;
+}
+#section-5-1 h1{
+    padding: 20px;
+    font-size: 50px;
+    color:#b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+#section-5-1 p{
+    font-size: 20px;
+    color:#b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+#section-5-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.overlay-container{
+    text-align: center;
+    position: relative;
+    width: 351px;
+    background-color: white;
+}
+.overlay-padding{
+    z-index: 2;
+    position: absolute;
+    top: 245px;
+    left: 100px;
+    padding: 10px;
+    background-color: #f8eed3;
+    width: 147px;
+    height: 44px;
+}
+.overlay-caption{
+    /* z-index: 2; */
+    /* position: absolute; */
+    /* top: 255px;
+    left: 115px; */
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    color: red;
+    border: 1px solid red;
+}
+.overlay-container p{
+    margin-top: 50px;
+}
+.btn_3{
+    margin: 20px 0px 20px 0px; 
+    border: none;
+    color:#f8eed3;
+    background-color:#b13941;
+    font-size: 20px;
+    font-family: "PT Serif";
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+#section-6{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b13941;
+    padding: 50px 20px 50px 20px;
+}
+#section-6-1 h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color:#f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+#section-6-1 p{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:#f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+#section-6-1-1{
+    display: flex;
+}
+.social-media{
+    background-color: #feedda;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center; /* This centers items vertically */
+    justify-content: center; /* This centers items horizontally */
+    margin-left: 30px;
+}
+#section-7{
+    display: flex;
+    background-color: white;
+}
+.contact-us{
+    margin: 30px 0px 30px 50px;
+}
+.contact-us h1{
+    font-size: 58px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+.contact-us input{
+    display: block;
+    width: 590px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 21px;
+    border: 1.5px solid #b0b0b0;
+    background-color: #efefef;
+    color: #b0b0b0;
+    margin-top: 10px;
+}
+.contact-us #Message{
+    display: block;
+    width: 590px;
+    height: 150px;
+    font-size: 21px;
+    text-align: left;
+    border: 1.5px solid #b0b0b0;
+    background-color: #efefef;
+    color: #b0b0b0;
+}
+.btn_4{
+    margin-top: 35px;
+    border: none;
+    color:#f8eed3;
+    background-color:#b13941;
+    font-size: 20px;
+    font-family: "PT Serif";
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+#footer{
+    background-color: #b13941;
+    padding: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";
+}
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .nav{
+        font-size: 20px;
+    }
+    .nav a img{
+        width: 20px;
+    }
+    #section-1-1{
+        padding: 90px 0px 0px 35px;
+        font-size: 30px;
+    }
+    #section-1-2{
+        font-size: 20px;
+    }
+    .btn{
+        margin: 100px 0px 20px 0px;
+    }
+    .img-logo{
+        width: 130px;
+        padding: 25px 0px 0px 15px;
+    }
+    #section-2-2 h1{
+        margin-top: 50px;
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    #section-2-2 p{
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .btn_1{
+        margin: 50px 0px 20px 0px;
+        font-size: 20px;
+    }
+    #section-3-1 .img-logo{
+        width: 200px;
+        height: 300px;
+        padding: 0px;
+    }
+    #section-3-2 h1{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    #section-3-2 p{
+        width: 360px;
+        height: 135px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    #section-3-2 a{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .nav{
+        font-size: 25px;
+    }
+    .nav a img{
+        width: 25px;
+    }
+    #section-1-1{
+        padding: 100px 0px 0px 35px;
+        font-size: 35px;
+    }
+    #section-1-2{
+        font-size: 25px;
+    }
+    .btn{
+        margin: 100px 0px 20px 0px;
+    }
+    .img-logo{
+        width: 300px;
+        height: 350px;
+        padding: 25px 0px 0px 15px;
+    }
+    #section-2-2 h1{
+        margin-top: 50px;
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    #section-2-2 p{
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 24px;
+    }
+    .btn_1{
+        margin: 50px 0px 20px 0px;
+        font-size: 25px;
+    }
+    #section-3-1 .img-logo{
+        width: 300px;
+        height: 410px;
+        padding: 0px;
+    }
+    #section-3-2 h1{
+        padding-left: 10px;
+        font-size: 25px;
+    }
+    #section-3-2 p{
+        width: 360px;
+        height: 250px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    #section-3-2 a{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nav{
+        font-size: 30px;
+    }
+    .nav a img{
+        width: 30px;
+    }
+    #section-1-1{
+        padding: 100px 0px 0px 35px;
+        font-size: 40px;
+    }
+    #section-1-2{
+        font-size: 30px;
+    }
+    .btn{
+        margin: 100px 0px 20px 0px;
+    }
+    .img-logo{
+        width: 290px;
+        padding: 25px 0px 0px 15px;
+    }
+    #section-2-2 h1{
+        margin-top: 50px;
+        padding-left: 20px;
+        font-size: 40px;
+    }
+    #section-2-2 p{
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 28px;
+    }
+    .btn_1{
+        margin: 50px 0px 20px 0px;
+        font-size: 30px;
+    }
+    #section-3-1 .img-logo{
+        width: 500px;
+        height: 550px;
+        padding: 0px;
+    }
+    #section-3-2 h1{
+        padding-left: 10px;
+        font-size: 30px;
+    }
+    #section-3-2 p{
+        width: 360px;
+        height: 360px;
+        padding-left: 10px;
+        font-size: 25px;
+    }
+    #section-3-2 a{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .nav{
+        font-size: 35px;
+    }
+    .nav a img{
+        width: 35px;
+    }
+    #section-1-1{
+        padding: 100px 0px 0px 60px;
+        font-size: 45px;
+    }
+    #section-1-2{
+        font-size: 35px;
+    }
+    .btn{
+        margin: 100px 0px 20px 0px;
+    }
+    .img-logo{
+        width: 330px;
+        padding: 25px 0px 0px 15px;
+    }
+    #section-2-2 h1{
+        margin-top: 50px;
+        padding-left: 20px;
+        font-size: 45px;
+    }
+    #section-2-2 p{
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .btn_1{
+        margin: 50px 0px 20px 0px;
+        font-size: 30px;
+    }
+    #section-3-1 .img-logo{
+        width: 700px;
+        height: 720px;
+        padding: 0px;
+    }
+    #section-3-2 h1{
+        padding-left: 10px;
+        font-size: 35px;
+    }
+    #section-3-2 p{
+        width: 360px;
+        height: 500px;
+        padding-left: 10px;
+        font-size: 30px;
+    }
+    #section-3-2 a{
+        margin-left: 10px;
+        font-size: 30px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .nav{
+        font-size: 40px;
+    }
+    .nav a img{
+        width: 40px;
+    }
+    #section-1-1{
+        padding: 100px 0px 0px 60px;
+        font-size: 45px;
+    }
+    #section-1-2{
+        font-size: 40px;
+    }
+    .btn{
+        margin: 100px 0px 20px 0px;
+    }
+    .img-logo{
+        width: 250px;
+        padding: 25px 0px 0px 15px;
+    }
+    #section-2-2 h1{
+        margin-top: 50px;
+        padding-left: 20px;
+        font-size: 45px;
+    }
+    #section-2-2 p{
+        margin-top: 20px;
+        padding-left: 20px;
+        font-size: 35px;
+    }
+    .btn_1{
+        margin: 50px 0px 20px 0px;
+        font-size: 35px;
+    }   
+}
