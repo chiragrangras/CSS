@@ -1,0 +1,1488 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 90px;
+    background-color: #303030;
+}
+#nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+#section-1{
+    background-image: url(./image/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#section-1 h1{
+    padding: 120px 0px 40px 50px;
+    font-size: 125px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+#section-1 p{
+    padding: 10px 0px 40px 50px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.btn{
+    font-size: 29px;
+    text-transform: uppercase;
+    margin: 10px 0px 20px 50px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #e8631c;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-2{
+    padding: 50px 0px 20px 0px;
+    background-color: #e8631c;
+}
+#section-2-1 h1{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-2-1 p{
+    padding: 50px 0px 0px 20px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#section-2-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.section-2-2-img-container{
+    text-align: center;
+    background-color: #303030;
+}
+.section-2-2-img-container h1{
+    padding-top: 20px;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+.section-2-2-img-container p{
+    padding:20px 0px 25px 0px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-3{
+    background-color: #303030;
+    padding-bottom: 20px;
+}
+#section-3-1 h1{
+    padding-top: 20px;
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-3-1 p{
+    padding-top: 20px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#section-3-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.section-3-2-1{
+    padding-top: 20px;
+    background-color: #e8631c;
+    text-align: center;
+}
+.section-3-2-1 h1{
+    padding-top: 50px;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Oswald";
+    text-align: center;
+}
+.section-3-2-1 p{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Oswald";
+    text-align: center;
+}
+.btn-1{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #303030;
+}
+#section-4{
+    background-color: #e8631c;
+    display: flex;
+    justify-content: space-between;
+}
+#section-4-1 img{
+    width: 630px;
+}
+#section-4-2 h1{
+    padding: 50px 0px 30px 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+#section-4-2 p{
+    padding: 10px 0px 10px 20px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.btn-2{
+    font-size: 29px;
+    text-transform: uppercase;
+    background-color: #303030;
+    color: #ffffff;
+    border: none;
+    margin: 50px 0px 0px 20px;
+    padding:20px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    cursor: pointer;
+}
+#section-5{
+    background-color: #e8631c;
+    display: flex;
+    justify-content: space-between;
+}
+#section-5-1 h1{
+    margin-top: 100px;
+    padding: 50px 0px 30px 40px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+#section-5-1 p{
+    margin-top: 10px;
+    padding: 50px 0px 30px 40px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.btn-2{
+    font-size: 29px;
+    text-transform: uppercase;
+    background-color: #303030;
+    color: #ffffff;
+    border: none;
+    margin: 50px 0px 30px 20px;
+    padding:20px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    cursor: pointer;
+}
+#section-5-2 img{
+    width: 650px;
+}
+#section-6{
+    background-color: #303030;
+}
+#section-6-1 h1{
+    padding: 100px 0px 0px 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-6-1 p{
+    padding: 30px 0px 0px 20px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#section-6-2{
+    display: flex;
+    justify-content: space-between;
+}
+#section-6-2-1 h1{
+    margin: 100px 0px 0px 80px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-6-2-1 p{
+    margin: 10px 0px 0px 80px;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#section-6-2-2 h1{
+    margin: 100px 0px 0px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-6-2-2 p{
+    margin: 10px 0px 0px 0px;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#section-6-2-3 h1{
+    margin: 100px 100px 0px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-6-2-3 p{
+    margin: 10px 100px 0px 0px;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#section-7{
+    background-image: url(./image/img-7-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section-7-1{
+    background: #bf4101;
+    opacity: 0.6;
+}
+#section-7-1 h1{
+    padding: 340px 0px 0px 0px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+}
+#section-7-1 p{
+    margin-top: 50px;
+    font-size: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-8{
+    background-color: #e8631c;
+}
+#section-8-1 h1{
+    padding-top: 100px;
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+#section-8-1 p{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#section-8-2 input{
+    margin-left: 300px;
+    padding:10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 29px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.btn-3{
+    font-size: 29px;
+    text-transform: uppercase;
+    background-color: #303030;
+    color: #ffffff;
+    border: none;
+    margin: 50px 0px 0px 0px;
+    padding:10px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    cursor: pointer;
+}
+#footer{
+    background-color: #303030;
+}
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+#footer-container h1{
+    padding: 100px 0px 10px 0px;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+#footer-container p{
+    padding: 20px 0px 20px 0px;
+    font-size: 25px;
+}
+#footer-container{
+    display: flex;
+    color: #ffffff;
+}
+#footer-container h2{
+    padding: 50px 50px 20px 0px;
+    font-size: 25px;
+}
+dl{
+    font-size: 20px;
+}
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #nav a{
+        font-size: 15px;
+    }
+    #section-1 h1{
+        padding: 30px 0px 5px 25px;
+        font-size: 60px;
+    }
+    #section-1 p{
+        padding: 5px 0px 20px 25px;
+        font-size: 15px;
+    }
+    .btn{
+        margin: 0px 0px 10px 20px;
+        font-size: 20px;
+        width: 160px;
+        height: 45px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #section-2-1 h1{
+        font-size: 60px;
+    }
+    #section-2-1 p{
+        padding: 20px 0px 0px 0px;
+    }
+    #section-2-2{
+        flex-direction: column;
+    }
+    .section-2-2-img-container img{
+        width: 500px;
+    }
+    .section-2-2-img-container h1{
+        font-size: 20px;
+    }
+    .section-2-2-img-container p{
+        font-size: 15px;
+        padding:5px 0px 5px 0px;
+    }
+    #section-3{
+        padding-bottom: 10px;
+    }
+    #section-3-1 h1{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    #section-3-1 p{
+        font-size: 20px;
+    }
+    #section-3-2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section-3-2-1{
+        padding-bottom: 20px;
+    }
+    .section-3-2-1 h1{
+        font-size: 30px;
+    }
+    .section-3-2-1 p{
+        font-size: 30px;
+    }
+    .btn-1{
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    #section-4{
+        display: flex; 
+        justify-content: space-around;
+    }
+    #section-4-1 img{
+        width: 290px;
+    }
+    #section-4-2 h1{
+        padding: 20px 0px 10px 20px;
+        font-size: 25px;
+    }
+    #section-4-2 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 20px;
+    }
+    .btn-2{
+        font-size: 20px;
+        margin: 20px 0px 0px 20px;
+        padding:20px;
+        border-radius: 20px;
+    }
+    #section-5{
+        display: flex;
+        justify-content: space-around;
+    }
+    #section-5-1 h1{
+        padding: 20px 0px 10px 20px;
+        font-size: 25px;
+    }
+    #section-5-1 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 20px;
+    }
+    .btn-2{
+        font-size: 20px;
+        margin: 20px 0px 20px 20px;
+        padding:20px;
+        border-radius: 20px;
+    }
+    #section-5-2 img{
+        width: 290px;
+    }
+    #section-6-1 h1{
+        padding: 100px 0px 0px 20px;
+        font-size: 25px; 
+    }
+    #section-6-1 p{
+        padding: 30px 0px 0px 20px;
+        font-size: 25px;
+    }
+    #section-6-2-1 h1{
+        margin: 100px 0px 0px 80px;
+        font-size: 25px;
+    }
+    #section-6-2-1 p{
+        margin: 10px 0px 0px 80px;
+        font-size: 25px;
+    }
+    #section-6-2-2 h1{
+        margin: 100px 0px 0px 0px;
+        font-size: 25px;
+    }
+    #section-6-2-2 p{
+        margin: 10px 0px 0px 0px;
+        font-size: 25px;
+    }
+    #section-6-2-3 h1{
+        margin: 100px 100px 0px 0px;
+        font-size: 25px;
+    }
+    #section-6-2-3 p{
+        margin: 10px 100px 0px 0px;
+        font-size: 25px;
+    }
+    #section-7-1 h1{
+        padding: 340px 0px 0px 0px;
+        font-size: 25px;
+    }
+    #section-7-1 p{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    #section-8-1 h1{
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    #section-8-1 p{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    #section-8-2{
+        padding-bottom: 20px;
+    }
+    #section-8-2 input{
+        margin-left: 100px;
+        padding:10px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    .btn-3{
+        font-size: 20px;
+        margin: 50px 0px 0px 0px;
+        padding:10px;
+        border-radius: 20px;
+    }
+    #footer{
+        background-color: #303030;
+    }
+    #footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-container h1{
+        padding: 50px 0px 10px 0px;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #footer-container p{
+        padding: 20px 0px 20px 0px;
+        font-size: 15px;
+        text-align: center;
+    }
+    #footer-logo{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    #footer-container{
+        display: flex;
+        color: #ffffff;
+    }
+    #footer-container h2{
+        padding: 50px 0px 20px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    dl{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #nav a{
+        font-size: 20px;
+    }
+    #section-1 h1{
+        padding: 40px 0px 20px 25px;
+        font-size: 65px;
+    }
+    #section-1 p{
+        padding: 5px 0px 20px 25px;
+        font-size: 20px;
+    }
+    .btn{
+        margin: 0px 0px 10px 20px;
+        font-size: 25px;
+        width: 190px;
+        height: 45px;
+    }
+    #section-2-1 h1{
+        font-size: 40px;
+    }
+    #section-2-1 p{
+        padding: 25px 0px 0px 0px;
+        font-size: 32px;
+    }
+    #section-2-2{
+        flex-direction: column;
+    }
+    .section-2-2-img-container img{
+        width: 730px;
+    }
+    .section-2-2-img-container h1{
+        font-size: 25px;
+    }
+    .section-2-2-img-container p{
+        font-size: 18px;
+        padding:8px 0px 8px 0px;
+    }
+    #section-3{
+        padding-bottom: 10px;
+    }
+    #section-3-1 h1{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    #section-3-1 p{
+        font-size: 20px;
+    }
+    #section-3-2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section-3-2-1{
+        padding-bottom: 20px;
+    }
+    .section-3-2-1 h1{
+        font-size: 30px;
+    }
+    .section-3-2-1 p{
+        font-size: 30px;
+    }
+    .btn-1{
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    #section-4{
+        display: flex; 
+        justify-content: space-around;
+    }
+    #section-4-1 img{
+        width: 380px;
+    }
+    #section-4-2 h1{
+        padding: 20px 0px 10px 20px;
+        font-size: 30px;
+    }
+    #section-4-2 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 30px;
+    }
+    .btn-2{
+        font-size: 20px;
+        margin: 20px 0px 0px 20px;
+        padding:25px;
+        border-radius: 20px;
+    }
+    #section-5{
+        display: flex;
+        justify-content: space-around;
+    }
+    #section-5-1 h1{
+        padding: 20px 0px 10px 20px;
+        font-size: 30px;
+    }
+    #section-5-1 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 25px;
+    }
+    .btn-2{
+        font-size: 20px;
+        margin: 20px 0px 0px 20px;
+        padding:25px;
+        border-radius: 20px;
+    }
+    #section-5-2 img{
+        width: 390px;
+    }
+    #section-6-1 h1{
+        padding: 100px 0px 0px 20px;
+        font-size: 30px;
+    }
+    #section-6-1 p{
+        padding: 30px 0px 0px 20px;
+        font-size: 30px;
+    }
+    #section-6-2-1 h1{
+        margin: 100px 0px 0px 80px;
+        font-size: 30px;
+    }
+    #section-6-2-1 p{
+        margin: 10px 0px 0px 80px;
+        font-size: 30px;
+    }
+    #section-6-2-2 h1{
+        margin: 100px 0px 0px 0px;
+        font-size: 30px;
+    }
+    #section-6-2-2 p{
+        margin: 10px 0px 0px 0px;
+        font-size: 30px;
+    }
+    #section-6-2-3 h1{
+        margin: 100px 100px 0px 0px;
+        font-size: 30px;
+    }
+    #section-6-2-3 p{
+        margin: 10px 100px 0px 0px;
+        font-size: 30px;
+    }
+    #section-7-1 h1{
+        padding: 340px 0px 0px 0px;
+        font-size: 35px;
+    }
+    #section-7-1 p{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    #section-8-1 h1{
+        padding-top: 50px;
+        font-size: 35px;
+    }
+    #section-8-1 p{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    #section-8-2{
+        padding-bottom: 20px;
+    }
+    #section-8-2 input{
+        margin-left: 110px;
+        padding:10px;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+    .btn-3{
+        font-size: 25px;
+        margin: 50px 0px 0px 0px;
+        padding:10px;
+        border-radius: 20px;
+    }
+    #footer{
+        background-color: #303030;
+    }
+    #footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-container h1{
+        padding: 50px 0px 10px 0px;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #footer-container p{
+        padding: 20px 0px 20px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #footer-logo{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    #footer-container{
+        display: flex;
+        color: #ffffff;
+    }
+    #footer-container h2{
+        padding: 50px 0px 20px 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    dl{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #nav a{
+        font-size: 25px;
+    }
+    #section-1 h1{
+        padding: 40px 0px 20px 25px;
+        font-size: 75px;
+    }
+    #section-1 p{
+        padding: 5px 0px 20px 25px;
+        font-size: 25px;
+    }
+    .btn{
+        margin: 0px 0px 10px 20px;
+        font-size: 30px;
+        width: 230px;
+        height: 45px;
+    }
+    #section-2-1 h1{
+        font-size: 50px;
+    }
+    #section-2-1 p{
+        padding: 10px 0px 0px 0px;
+        font-size: 35px;
+    }
+    #section-2-2{
+        flex-direction: column;
+    }
+    .section-2-2-img-container img{
+        width: 920px;
+    }
+    .section-2-2-img-container h1{
+        font-size: 40px;
+    }
+    .section-2-2-img-container p{
+        font-size: 25px;
+        padding:15px 0px 15px 0px;
+    }
+    #section-3{
+        padding-bottom: 10px;
+    }
+    #section-3-1 h1{
+        padding-top: 25px;
+        font-size: 35px;
+    }
+    #section-3-1 p{
+        font-size: 25px;
+    }
+    #section-3-2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section-3-2-1{
+        padding-bottom: 20px;
+    }
+    .section-3-2-1 h1{
+        font-size: 35px;
+    }
+    .section-3-2-1 p{
+        font-size: 35px;
+    }
+    .btn-1{
+        padding: 15px;
+        font-size: 35px;
+        border-radius: 10px;
+    }
+    #section-4{
+        display: flex; 
+        justify-content: space-around;
+    }
+    #section-4-1 img{
+        width: 500px;
+    }
+    #section-4-2 h1{
+        padding: 20px 0px 10px 20px;
+        font-size: 40px;
+    }
+    #section-4-2 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 35px;
+    }
+    .btn-2{
+        font-size: 20px;
+        margin: 60px 0px 0px 20px;
+        padding:25px;
+        border-radius: 20px;
+    }
+    #section-5{
+        display: flex;
+        justify-content: space-around;
+    }
+    #section-5-1 h1{
+        padding: 20px 0px 10px 20px;
+        font-size: 40px;
+    }
+    #section-5-1 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 35px;
+    }
+    .btn-2{
+        font-size: 20px;
+        margin: 20px 0px 0px 20px;
+        padding:25px;
+        border-radius: 20px;
+    }
+    #section-5-2 img{
+        width: 490px;
+    }
+    #section-6-1 h1{
+        padding: 100px 0px 0px 20px;
+        font-size: 35px;
+    }
+    #section-6-1 p{
+        padding: 30px 0px 0px 20px;
+        font-size: 35px;
+    }
+    #section-6-2-1 h1{
+        margin: 100px 0px 0px 80px;
+        font-size: 35px;
+    }
+    #section-6-2-1 p{
+        margin: 10px 0px 0px 80px;
+        font-size: 35px;
+    }
+    #section-6-2-2 h1{
+        margin: 100px 0px 0px 0px;
+        font-size: 35px;
+    }
+    #section-6-2-2 p{
+        margin: 10px 0px 0px 0px;
+        font-size: 35px;
+    }
+    #section-6-2-3 h1{
+        margin: 100px 100px 0px 0px;
+        font-size: 35px;
+    }
+    #section-6-2-3 p{
+        margin: 10px 100px 0px 0px;
+        font-size: 35px;
+    }
+    #section-7-1 h1{
+        padding: 340px 0px 0px 0px;
+        font-size: 40px;
+    }
+    #section-7-1 p{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    #section-8-1 h1{
+        padding-top: 50px;
+        font-size: 50px;
+    }
+    #section-8-1 p{
+        padding-top: 20px;
+        font-size: 40px;
+    }
+    #section-8-2{
+        padding-bottom: 20px;
+    }
+    #section-8-2 input{
+        margin-left: 200px;
+        padding:10px;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+    .btn-3{
+        font-size: 30px;
+        margin: 50px 0px 0px 0px;
+        padding:10px;
+        border-radius: 20px;
+    }
+    #footer{
+        background-color: #303030;
+    }
+    #footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-container h1{
+        padding: 50px 0px 10px 0px;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #footer-container p{
+        padding: 20px 0px 20px 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    #footer-logo{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    #footer-container{
+        display: flex;
+        color: #ffffff;
+    }
+    #footer-container h2{
+        padding: 50px 0px 20px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    dl{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #nav a{
+        font-size: 30px;
+    }
+    #section-1 h1{
+        padding: 60px 0px 70px 25px;
+        font-size: 80px;
+    }
+    #section-1 p{
+        padding: 30px 0px 70px 25px;
+        font-size: 30px;
+    }
+    .btn{
+        margin: 40px 0px 50px 20px;
+        font-size: 40px;
+        width: 350px;
+        height: 45px;
+    }
+    #section-2-1 h1{
+        font-size: 75px;
+    }
+    #section-2-1 p{
+        padding: 50px 0px 0px 20px;
+        font-size: 30px;
+    }
+    #section-2-2{
+        flex-direction: row;
+    }
+    .section-2-2-img-container img{
+        width: 400px;
+    }
+    .section-2-2-img-container h1{
+        font-size: 40px;
+    }
+    .section-2-2-img-container p{
+        font-size: 25px;
+        padding:15px 0px 15px 0px;
+    }
+    #section-3{
+        padding-bottom: 10px;
+    }
+    #section-3-1 h1{
+        padding-top: 20px;
+        font-size: 75px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Oswald";
+        text-align: center;
+    }
+    #section-3-1 p{
+        padding-top: 20px;
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+    #section-3-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .section-3-2-1{
+        width: 372px;
+        height: 400px;
+        padding-top: 20px;
+        background-color: #e8631c;
+        text-align: center;
+    }
+    .section-3-2-1 h1{
+        padding-top: 50px;
+        font-size: 37px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Oswald";
+        text-align: center;
+    }
+    .section-3-2-1 p{
+        padding-top: 20px;
+        font-size: 20px;
+        color: #ffffff;
+        font-family: "Oswald";
+        text-align: center;
+    }
+    .btn-1{
+        margin-top: 20px;
+        width: 150px;
+        height: 65px;
+        font-size: 30px;
+        color: #ffffff;
+        border-radius: 10px;
+        background-color: #303030;
+    }
+    #section-4{
+        display: flex; 
+        justify-content: space-between;
+    }
+    #section-4-1 img{
+        width: 620px;
+    }
+    #section-4-2 h1{
+        padding: 50px 0px 30px 20px;
+        font-size: 50px;
+    }
+    #section-4-2 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 30px;
+    }
+    .btn-2{
+        font-size: 29px;
+        margin: 50px 0px 0px 20px;
+        padding:20px;
+        border-radius: 20px;
+    }
+    #section-5{
+        display: flex;
+        justify-content: space-between;
+    }
+    #section-5-1 h1{
+        margin-top: 100px;
+        padding: 50px 0px 30px 40px;
+        font-size: 50px;
+    }
+    #section-5-1 p{
+        margin-top: 10px;
+        padding: 50px 0px 30px 40px;
+        font-size: 30px;
+    }
+    .btn-2{
+        font-size: 29px;
+        margin: 50px 0px 30px 20px;
+        padding:20px;
+        border-radius: 20px;
+    }
+    #section-5-2 img{
+        width: 640px;
+    }#section-6-1 h1{
+        padding: 100px 0px 0px 20px;
+        font-size: 40px; 
+    }
+    #section-6-1 p{
+        padding: 30px 0px 0px 20px;
+        font-size: 40px;
+    }
+    #section-6-2-1 h1{
+        margin: 100px 0px 0px 80px;
+        font-size: 40px;
+    }
+    #section-6-2-1 p{
+        margin: 10px 0px 0px 80px;
+        font-size: 40px;
+    }
+    #section-6-2-2 h1{
+        margin: 100px 0px 0px 0px;
+        font-size: 40px;
+    }
+    #section-6-2-2 p{
+        margin: 10px 0px 0px 0px;
+        font-size: 40px;
+    }
+    #section-6-2-3 h1{
+        margin: 100px 100px 0px 0px;
+        font-size: 40px;
+    }
+    #section-6-2-3 p{
+        margin: 10px 100px 0px 0px;
+        font-size: 40px;
+    }
+    #section-7-1 h1{
+        padding: 340px 0px 0px 0px;
+        font-size: 50px;
+    }
+    #section-7-1 p{
+        margin-top: 50px;
+        font-size: 60px;
+    }
+    #section-8-1 h1{
+        padding-top: 100px;
+        font-size: 75px;
+    }
+    #section-8-1 p{
+        padding-top: 30px;
+        font-size: 50px;
+    }
+    #section-8-2{
+        padding-bottom: 20px;
+    }
+    #section-8-2 input{
+        margin-left: 300px;
+        padding:10px;
+        border-radius: 20px;
+        font-size: 29px;
+    }
+    .btn-3{
+        font-size: 29px;
+        margin: 50px 0px 0px 0px;
+        padding:10px;
+        border-radius: 20px;
+    }
+    #footer{
+        background-color: #303030;
+    }
+    #footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #footer-container h1{
+        padding: 100px 0px 10px 0px;
+        font-size: 33px;
+        text-transform: uppercase;
+    }
+    #footer-container p{
+        padding: 20px 0px 20px 20px;
+        font-size: 30px;
+    }
+    #footer-logo{
+        padding: 10px;
+    }
+    #footer-conatiner{
+        display: flex;
+        color: #ffffff;
+    }
+    #footer-container h2{
+        padding: 100px 0px 20px 0px;
+        font-size: 25px;
+    }
+    dl{
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #nav a{
+        font-size: 40px;
+    }
+    #section-1 h1{
+        padding: 80px 0px 80px 25px;
+        font-size: 90px;
+    }
+    #section-1 p{
+        padding: 50px 0px 75px 25px;
+        font-size: 40px;
+    }
+    .btn{
+        margin: 40px 0px 50px 20px;
+        font-size: 50px;
+        width: 410px;
+        height: 60px;
+    }
+    #section-2-1 h1{
+        font-size: 80px;
+    }
+    #section-2-1 p{
+        padding: 20px 0px 0px 20px;
+        font-size: 40px;
+    }
+    #section-2-2{
+        flex-direction: row;
+    }
+    .section-2-2-img-container img{
+        width: 430px;
+    }
+    .section-2-2-img-container h1{
+        font-size: 50px;
+    }
+    .section-2-2-img-container p{
+        font-size: 30px;
+        padding:10px 0px 10px 0px;
+    }
+    #section-3{
+        padding-bottom: 10px;
+    }
+    #section-3-1 h1{
+        padding-top: 20px;
+        font-size: 75px;
+    }
+    #section-3-1 p{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    #section-3-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .section-3-2-1{
+        width: 440px;
+        height: 400px;
+        padding-top: 20px;
+    }
+    .section-3-2-1 h1{
+        padding-top: 50px;
+        font-size: 40px;
+    }
+    .section-3-2-1 p{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .btn-1{
+        margin-top: 15px;
+        width: 150px;
+        height: 65px;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    #section-4{
+        display: flex; 
+        justify-content: space-between;
+    }
+    #section-4-1 img{
+        width: 690px;
+    }
+    #section-4-2 h1{
+        padding: 50px 0px 30px 20px;
+        font-size: 60px;
+    }
+    #section-4-2 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 40px;
+    }
+    .btn-2{
+        font-size: 35px;
+        margin: 170px 0px 0px 20px;
+        padding:20px;
+        border-radius: 20px;
+    }
+    #section-5{
+        display: flex;
+        justify-content: space-around;
+    }
+    #section-5-1 h1{
+        padding: 20px 0px 20px 20px;
+        font-size: 60px;
+    }
+    #section-5-1 p{
+        padding: 10px 0px 10px 20px;
+        font-size: 50px;
+    }
+    .btn-2{
+        font-size: 20px;
+        margin: 20px 0px 0px 20px;
+        padding:25px;
+        border-radius: 20px;
+    }
+    #section-5-2 img{
+        width: 710px;
+    }
+    #section-6-1 h1{
+        padding: 100px 0px 0px 20px;
+        font-size: 45px;
+    }
+    #section-6-1 p{
+        padding: 30px 0px 0px 20px;
+        font-size: 45px;
+    }
+    #section-6-2-1 h1{
+        margin: 100px 0px 0px 80px;
+        font-size: 45px;
+    }
+    #section-6-2-1 p{
+        margin: 10px 0px 0px 80px;
+        font-size: 45px;
+    }
+    #section-6-2-2 h1{
+        margin: 100px 0px 0px 0px;
+        font-size: 45px;
+    }
+    #section-6-2-2 p{
+        margin: 10px 0px 0px 0px;
+        font-size: 45px;
+    }
+    #section-6-2-3 h1{
+        margin: 100px 100px 0px 0px;
+        font-size: 45px;
+    }
+    #section-6-2-3 p{
+        margin: 10px 100px 0px 0px;
+        font-size: 45px;
+    }
+    #section-7-1 h1{
+        padding: 340px 0px 0px 0px;
+        font-size: 65px;
+    }
+    #section-7-1 p{
+        margin-top: 50px;
+        font-size: 60px;
+    }
+    #section-8-1 h1{
+        padding-top: 50px;
+        font-size: 70px;
+    }
+    #section-8-1 p{
+        padding-top: 20px;
+        font-size: 40px;
+    }
+    #section-8-2{
+        padding-bottom: 20px;
+    }
+    #section-8-2 input{
+        margin-left: 300px;
+        padding:10px;
+        border-radius: 20px;
+        font-size: 40px;
+    }
+    .btn-3{
+        font-size: 40px;
+        margin: 50px 0px 0px 0px;
+        padding:10px;
+        border-radius: 20px;
+    }
+    #footer{
+        background-color: #303030;
+    }
+    #footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #footer-container h1{
+        padding: 100px 0px 10px 0px;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    #footer-container p{
+        padding: 20px 0px 20px 20px;
+        font-size: 35px;
+    }
+    #footer-logo{
+        padding: 15px;
+    }
+    #footer-conatiner{
+        display: flex;
+        color: #ffffff;
+    }
+    #footer-container h2{
+        padding: 100px 0px 20px 0px;
+        font-size: 30px;
+    }
+    dl{
+        padding: 25px;
+        font-size: 25px;
+    }
+}
