@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-bg{
+    background-image: url(./Img/bg-img.jpg);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav .col-80{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0px 0px 50px;
+}
+.nav .col-20 select{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.btn-1{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+#section-1 h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+#section-1 p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#section-1 input{
+    margin: 30px 0px 100px 290px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btn-2{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+#section-2{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+#section-2 .col-50{
+    position: relative;
+}
+#section-2 .col-50 h1{
+    margin: 100px 0px 0px 50px;
+    color: white;
+    font-size: 50px;
+    font-weight:bold;
+}
+#section-2 .col-50 p{
+    margin: 50px 0px 0px 50px;
+    color: white;
+    font-size: 30px;
+}
+#section-2 .col-50 video{
+    position: absolute;
+    top: 100px;
+    right: 89px;
+}
+#section-3{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    position: relative;
+    border-bottom: 2px solid gray;
+}
+#section-3 .col-50 .download{
+    background-color: black;
+    width: 340px;
+    height: 110px;
+    border: 3px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 340px;
+    left: 150px;
+}
+#section-3  .col-50 .download img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+#section-3  .col-50 .download h1{
+    position: absolute;
+    top: -90px;
+    right: 80px;
+    font-size: 30px;
+}
+#section-3  .col-50 .download p{
+    position: absolute;
+    top: 45px;
+    right: 70px;
+    font-size: 20px;
+    color: blue;
+}
+#section-3 .col-50 h1{
+    margin: 100px 0px 0px 10px;
+    color: white;
+    font-size: 50px;
+    font-weight:bold;
+}
+#section-3 .col-50 p{
+    margin: 30px 0px 0px 10px;
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+}
+#section-4{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    position: relative;
+    border-bottom: 2px solid gray;
+}
+#section-4 .col-50 h1{
+    margin: 100px 0px 0px 10px;
+    color: white;
+    font-size: 50px;
+    font-weight:bold;
+}
+#section-4 .col-50 p{
+    margin: 30px 0px 0px 10px;
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+}
+#section-4 .col-50 video{
+    position: absolute;
+    width: 420px;
+    height: 200px;
+    top: 45px;
+    right: 140px;
+}
