@@ -167,3 +167,32 @@
     top: 45px;
     right: 140px;
 }
+#section-5{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-bottom: 2px solid gray;
+}
+#section-5 .col-50 img{
+    width: 500px;
+    height: 300px;
+}
+#section-5 .col-50 h1{
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+}
+#section-5 .col-50 p{
+    margin: 10px 0px 100px 0px;
+    font-size: 30px;
+    color: white;
+}
+#section-6{
+    background-color: black;
+}
+#section-6 h1{
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
