@@ -196,3 +196,13 @@
     text-align: center;
     color: white;
 }
+#section-6 .collapsible{
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
