@@ -206,3 +206,8 @@
     outline: none;
     font-size: 15px;
 }
+
+#section-6 .answer{
+    color: white;
+    display: none;
+}
