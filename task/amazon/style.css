@@ -565,8 +565,10 @@
     background-color: #d1cfcf;
     margin: 10px;
     width: 1240px;
-    height: 300px;
+    height: 360px;
     padding: 20px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
 }
 #section-3 span{
     font-size: 20px;
@@ -574,30 +576,39 @@
 #section-3 a{
     text-decoration: none;
     color: blue;
-    padding: 20px 0px 0px 15px;
+    position: relative;
+    top: -20px;
+    right: -140px;
 }
-#box-1 {
+#card-9 {
     background-color: #fff;
-    width: 200px;
-    height: 350px;
+    width: 230px;
+    height: 290px;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#box-1 img{
+#card-9 img{
     width: 158px;
     height: 200px;
 }
-#box-1-1{
+#card-9-1{
     background-color: red;
     color: white;
     display: flex;
     flex-direction: row;
-}
-#box-1-2{
-    color: red;
-    position: absolute;
+    position: relative;
     top: 10px;
-    right: 10px;
+    right: 60px;
+    padding: 5px 5px 5px 5px;
+}
+#card-9-2{
+    color: red;
+    position: relative;
+    top: -8px;
+    right: -48px;
+}
+#card-9-3{
+    margin: 5px 10px 5px 10px;
 }
