@@ -576,9 +576,10 @@
 #section-3 a{
     text-decoration: none;
     color: blue;
+    width: 88px;
     position: relative;
-    top: -20px;
-    right: -140px;
+    top: -19px;
+    right: -133px;
 }
 #card-9 {
     background-color: #fff;
@@ -590,7 +591,7 @@
     align-items: center;
 }
 #card-9 img{
-    width: 158px;
+    width: 190px;
     height: 200px;
 }
 #card-9-1{
@@ -611,4 +612,13 @@
 }
 #card-9-3{
     margin: 5px 10px 5px 10px;
+}
+#card-10{
+    background-color: #fff;
+    background-color: red;
+    margin-top: 10px;
+    width: 230px;
+    height: 290px;
+    display: flex;
+    gap: 10px;
 }
