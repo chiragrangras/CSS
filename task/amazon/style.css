@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #e3e6e6;
+}
 .nav{
     display: flex;
     justify-content: space-around;
@@ -314,7 +317,6 @@
     background-color: white;
 }
 #section-2{
-    background-color: #b6b6b6;
     padding: 20px 0px 10px 20px;
     display: flex;
 }
@@ -562,63 +564,59 @@
     color: blue;
 }
 #section-3{
-    background-color: #d1cfcf;
-    margin: 10px;
-    width: 1240px;
-    height: 360px;
-    padding: 20px 0px 0px 10px;
-    display: flex;
-    flex-direction: column;
+    background-color: #ffffff;
+    margin: 20px 32px 10px 20px;
+    padding: 20px;
 }
-#section-3 span{
+.today-deals{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+.fnt-20{
     font-size: 20px;
 }
 #section-3 a{
     text-decoration: none;
     color: blue;
-    width: 88px;
-    position: relative;
-    top: -19px;
-    right: -133px;
 }
-#card-9 {
+.offer-cards{
+    display: flex;
+    justify-content: space-between;   
+}
+.offer-card {
     background-color: #fff;
     width: 230px;
-    height: 290px;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#card-9 img{
+.offer-card-img{
+    background-color: #f7f8f8;
+    padding: 20px;
+}
+.offer-card-img img{
     width: 190px;
     height: 200px;
 }
-#card-9-1{
+.card-caption{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.offer-card-deals{
+    display: flex;
+    gap: 20px;
+}
+.offer-card-txt-1{
     background-color: red;
     color: white;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 10px;
-    right: 60px;
-    padding: 5px 5px 5px 5px;
+    padding: 0px 10px;
 }
-#card-9-2{
+.offer-card-txt-2{
     color: red;
-    position: relative;
-    top: -8px;
-    right: -48px;
 }
-#card-9-3{
-    margin: 5px 10px 5px 10px;
-}
-#card-10{
-    background-color: #fff;
-    background-color: red;
-    margin-top: 10px;
-    width: 230px;
-    height: 290px;
-    display: flex;
-    gap: 10px;
+.fnt-15{
+    font-size: 15px;
 }
