@@ -885,3 +885,39 @@ h3{
     height: 200px;
     cursor: pointer;  
 }
+#section-8{
+    background-color: #ffffff;
+    margin: 20px 32px 10px 20px;
+    padding: 20px;
+}
+#grocery-img img{
+    margin-top: 20px;
+    padding-right: 20px;
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+}
+#grocery-img #img-4{
+    width: 100px;
+    height: 200px;
+}
+#section-9{
+    background-color: #ffffff;
+    margin: 20px 200px 10px 200px;
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+}
+#section-9-1 img{
+    width: 290px;
+    height: 280px;
+}
+#section-9-2 p{
+    margin: 100px 0px 0px 50px;
+    font-size: 20px;
+}
+#section-9-2 span{
+    padding: 100px 0px 0px 50px;
+    font-size: 20px;
+    color: #a91010;
+}
