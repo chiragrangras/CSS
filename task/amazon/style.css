@@ -878,3 +878,10 @@ h3{
     text-decoration: none;
     color: blue;
 }
+#womed-led-img img{
+    margin-top: 20px;
+    padding-right: 20px;
+    width: 268px;
+    height: 200px;
+    cursor: pointer;  
+}
