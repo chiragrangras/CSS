@@ -46,7 +46,7 @@ body{
     display: flex;
     flex-direction: row;
 }
-.btn{
+.category-drop-down{
     width: 50px;
     height: 36px;
     border-top-left-radius: 5px;
@@ -131,10 +131,22 @@ body{
     text-decoration: none;
     padding-left: 10px;
 }
+#carousel-prev{
+    position: relative;
+    top: -425px;
+}
+#carousel-next{
+    position: relative;
+    top: -457px;
+    right: -1074px;
+}
 #section-1{
     background: linear-gradient(#ffbac5,red);
     padding : 20px 0px 10px 20px;
     display: flex;
+    position: relative;
+    z-index: 2;
+    top: -327px;
 }
 #card-1{
     width: 300px;
@@ -317,6 +329,8 @@ body{
 #section-2{
     padding: 20px 0px 10px 20px;
     display: flex;
+    position: relative;
+    top: -326px;
 }
 #card-5{
     width: 300px;
@@ -562,8 +576,10 @@ body{
 }
 #section-3{
     background-color: #ffffff;
-    margin: 20px 32px 10px 20px;
+    margin: 20px 10px 10px 20px;
     padding: 20px;
+    position: relative;
+    top: -334px;
 }
 .today-deals{
     display: flex;
@@ -583,7 +599,7 @@ body{
 }
 .offer-card {
     background-color: #fff;
-    width: 230px;
+    width: 250px;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
@@ -620,8 +636,10 @@ body{
 }
 #section-4{
     background-color: #ffffff;
-    margin: 20px 32px 10px 20px;
+    margin: 20px 10px 10px 20px;
     padding: 20px;
+    position: relative;
+    top: -340px;
 }
 #section-4 a{
     text-decoration: none;
@@ -637,8 +655,10 @@ body{
 }
 #section-5{
     background-color: #ffffff;
-    margin: 20px 32px 10px 20px;
+    margin: 20px 10px 10px 20px;
     padding: 20px;
+    position: relative;
+    top: -345px;
 }
 #section-5 a{
     text-decoration: none;
@@ -648,16 +668,18 @@ body{
     margin-bottom: 20px;
 }
 #home-decor-img img{
-    width: 280px;
+    width: 295px;
     height: 200px;
     cursor: pointer;
 }
 #section-6{
     padding: 10px 0px 10px 20px;
     display: flex;
+    position: relative;
+    top: -340px;
 }
 #card-9{
-    width: 280px;
+    width: 300px;
     height: 400px;
     background-color: white;
     padding: 20px 0px 0px 10px;
@@ -727,7 +749,7 @@ body{
 }
 #card-10{
     margin-left: 20px;
-    width: 270px;
+    width: 300px;
     height: 400px;
     background-color: white;
     padding: 20px 0px 0px 20px;
@@ -754,7 +776,7 @@ h3{
 }
 #card-11{
     margin-left: 20px;
-    width: 270px;
+    width: 290px;
     height: 400px;
     background-color: white;
     padding: 20px 0px 0px 20px;
@@ -871,8 +893,10 @@ h3{
 }
 #section-7{
     background-color: #ffffff;
-    margin: 20px 32px 10px 20px;
+    margin: 20px 10px 10px 20px;
     padding: 20px;
+    position: relative;
+    top: -340px;
 }
 #section-7 a{
     text-decoration: none;
@@ -881,20 +905,22 @@ h3{
 #womed-led-img img{
     margin-top: 20px;
     padding-right: 20px;
-    width: 268px;
+    width: 294px;
     height: 200px;
     cursor: pointer;  
 }
 #section-8{
     background-color: #ffffff;
-    margin: 20px 32px 10px 20px;
+    margin: 20px 10px 10px 20px;
     padding: 20px;
+    position: relative;
+    top: -342px;
 }
 #grocery-img img{
     margin-top: 20px;
     padding-right: 20px;
-    width: 150px;
-    height: 200px;
+    width: 175px;
+    height: 210px;
     cursor: pointer;
 }
 #grocery-img #img-4{
@@ -903,10 +929,12 @@ h3{
 }
 #section-9{
     background-color: #ffffff;
-    margin: 20px 200px 10px 200px;
+    margin: 20px 100px 10px 200px;
     padding: 20px;
     display: flex;
     cursor: pointer;
+    position: relative;
+    top: -342px;
 }
 #section-9-1 img{
     width: 290px;
@@ -924,6 +952,8 @@ h3{
 #section-10{
     padding: 10px 0px 10px 20px;
     display: flex;
+    position: relative;
+    top: -340px;
 }
 #card-13{
     width: 300px;
@@ -993,7 +1023,7 @@ h3{
 }
 #card-14{
     margin-left: 20px;
-    width: 300px;
+    width: 280px;
     height: 400px;
     background-color: white;
     padding: 20px 0px 0px 20px;
@@ -1019,14 +1049,14 @@ h3{
     flex-direction: column;
 }
 #card-14-1-1 img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 175px;
     padding: 10px 0px 10px 0px;
     cursor: pointer;
 }
 #card-14-1-2 img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 175px;
     padding: 10px 0px 10px 0px;
     cursor: pointer;
 }
@@ -1039,20 +1069,20 @@ h3{
     flex-direction: column;
 }
 #card-14-2-1 img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     padding: 10px 0px 10px 0px;
     cursor: pointer;
 }
 #card-14-2-2 img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     padding: 10px 0px 5px 0px;
     cursor: pointer;
 }
 #card-15{
     margin-left: 20px;
-    width: 300px;
+    width: 280px;
     height: 400px;
     background-color: white;
     padding: 20px 0px 0px 20px;
@@ -1062,18 +1092,18 @@ h3{
 }
 #card-15 img{
     margin-top: 20px;
-    width: 240px;
-    height: 240px;
+    width: 230px;
+    height: 217px;
 }
 #card-15 a{
-    margin-top: 30px;
+    margin-top: 35px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: blue;
 }
 #card-16{
     margin-left: 20px;
-    width: 300px;
+    width: 280px;
     height: 400px;
     background-color: white;
     padding: 20px 0px 0px 20px;
@@ -1100,7 +1130,7 @@ h3{
     flex-direction: column;
 }
 #card-16-1-1 img{
-    width: 120px;
+    width: 100px;
     height: 100px;
     padding: 10px 0px 10px 0px;
     cursor: pointer;
@@ -1113,7 +1143,7 @@ h3{
     flex-direction: column;
 }
 #card-16-1-2 img{
-    width: 120px;
+    width: 100px;
     height: 100px;
     padding: 10px 0px 10px 0px;
     cursor: pointer;
@@ -1130,7 +1160,7 @@ h3{
     flex-direction: column;
 }
 #card-16-2-1 img{
-    width: 120px;
+    width: 100px;
     height: 100px;
     padding: 10px 0px 10px 0px;
     cursor: pointer;
@@ -1139,7 +1169,7 @@ h3{
     font-size: 13px;
 }
 #card-16-2-2 img{
-    width: 120px;
+    width: 100px;
     height: 100px;
     padding: 10px 0px 0px 0px;
     cursor: pointer;
