@@ -1177,3 +1177,27 @@ h3{
 #card-16-2-2 span{
     font-size: 13px;
 }
+.bg-body-tertiary{
+    position: relative;
+    top: -337px;
+}
+.container{
+    background-color: black;
+    color: #fff;
+}
+.text-body{
+    color: #fff !important;
+}
+#btn-3{
+    padding: 0px 502px 0px 504px;
+    background-color: #485769;
+    margin-bottom: 25px;
+}
+#btn-3 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+}
