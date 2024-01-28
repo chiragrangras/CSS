@@ -170,3 +170,37 @@
     font-size: 25px;
     text-align: center;
 }
+.section-3{
+    background-color: #ff3300;
+    display: flex;
+    justify-content: space-around;
+}
+#section-3-1 img{
+    margin: 40px 0px 0px 100px;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 150px;
+}
+#section-3-2 h1{
+    padding-top: 100px;
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+#section-3-2 p{
+    padding-top: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+#btn-2{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
