@@ -96,25 +96,25 @@
 #coke-img{
     position: absolute;
     top: 200px;
-    right:250px;
+    right:90px;
     z-index: 1;
 }
 #fries-img{
     position: absolute;
-    top: 290px;
-    left: 760px;
+    top: 300px;
+    left: 820px;
     z-index: 1;
 }
 #burger-img{
     position: absolute;
     top: 300px;
-    right: 320px;
+    right: 250px;
     z-index: 2;
 }
 #discount-img img{
     position: absolute;
     top: 550px;
-    right: 710px;
+    right: 610px;
     z-index: 3;
 }
 #discount-img p{
@@ -133,19 +133,19 @@
 }
 #content-2-1 img{
     margin: 50px 30px 20px 34px;
-    width: 800px;
+    width: 660px;
     height: 680px;
 }
 
 #content-2-1 h1{
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
     top: 100px;
-    left: 60px;
+    left: 70px;
 }
 #content-2-1 p{
     font-size: 30px;
@@ -155,57 +155,57 @@
     font-family: "Bebas Neue";
     position: absolute;
     top: 170px;
-    left: 60px;
+    left: 70px;
 }
 #content-2-2 {
     margin: 50px 0px 0px 10px;
 }
 #content-2-2 img{
-    width: 780px;
+    width: 520px;
     height: 320px;
 }
 #content-2-2 img:nth-child(4){
     margin-top: 33px;
 }
 #content-2-2 h1{
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
     top: 100px;
-    right:440px;
+    right:270px;
 }
 #content-2-2 p{
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
-    top:170px;
-    right:520px;
+    top:160px;
+    right:280px;
 }
 #content-2-2 h2{
-    font-size: 50px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Bebas Neue";
-    position: absolute;
-    top: 440px;
-    right:430px;
-}
-#content-2-2 h3{
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
     font-family: "Bebas Neue";
     position: absolute;
     top: 500px;
-    right:400px;
+    right:270px;
+}
+#content-2-2 h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    position: absolute;
+    top: 550px;
+    right:255px;
 }
 #content-3{
     background-color: #ffffff;
@@ -290,7 +290,7 @@
     background-color: white;
     box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
     display: flex;
-    gap: 400px;
+    gap: 10px;
     align-items: center;
     width: 99%;
 }
@@ -326,7 +326,7 @@
 #img-1{
     position: absolute;
     top: 0px;
-    left:-90px;
+    left:-10px;
 }
 #img-2{
     position: absolute;
@@ -344,7 +344,7 @@
     position: absolute;
     z-index: 1;
     top: 0;
-    left: 500px;
+    left: 400px;
 }
 #section-6-2 h1{
     margin-top: 100px;
@@ -408,13 +408,13 @@
 #footer-1 img{
     position: absolute;
     top: 570px;
-    left: 100px;
-    width: 1360px;
+    left: 2px;
+    width: 1260px;
     height: 680px;
 }
 #footer-2 img{
     position: absolute;
-    top: 600px;
+    top: 620px;
     left: 180px;
 }
 #footer-2 p{
@@ -446,29 +446,29 @@
 #footer-3-1 img{
     position: absolute;
     top: 900px;
-    right: 800px;
+    right: 1050px;
 }
 #footer-3-1 p{
     position: absolute;
     top: 905px;
-    right: 280px;
+    right: 510px;
 }
 #footer-3-2 img{
     position: absolute;
     top: 980px;
-    right: 800px;
+    right: 1050px;
 }
 #footer-3-2 p{
     position: absolute;
     top: 980px;
-    right: 420px;
+    right: 660px;
 }
 #footer-3-3 {
     display: flex;
     gap: 30px;
     position: absolute;
     top: 1040px;
-    left: 850px;
+    left: 800px;
 }
 #footer-3-3 i{
     z-index: 4;
