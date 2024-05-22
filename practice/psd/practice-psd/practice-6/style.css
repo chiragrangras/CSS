@@ -589,3 +589,30 @@
     font-weight: 700;
     font-family: "Archivo";
 }
+#section-7{
+    background-image: url(./img/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+}
+#section-7-1{
+    background: #f8867c;
+    opacity: 0.7;
+    height: 470px;
+}
+#section-7-1 p{
+    padding-top: 150px;
+    font-size: 36px;
+    color: white;
+    font-weight: 400;
+    font-family: "Calistoga";
+    text-align: center;
+}
+#section-7-1 h1{
+    padding: 20px 0px 100px 0px;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Calistoga";
+    text-align: center;   
+}
