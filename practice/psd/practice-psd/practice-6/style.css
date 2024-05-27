@@ -616,3 +616,14 @@
     font-family: "Calistoga";
     text-align: center;   
 }
+#section-8{
+  background-color: #f6eedf;  
+}
+#section-8 h1{
+    padding: 150px 0px 20px 0px;
+    font-size: 75px;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center
+}
