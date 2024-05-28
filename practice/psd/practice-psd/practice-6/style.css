@@ -617,13 +617,173 @@
     text-align: center;   
 }
 #section-8{
-  background-color: #f6eedf;  
+  background-color: #f6eedf;
+  position: relative;
 }
 #section-8 h1{
-    padding: 150px 0px 20px 0px;
+    padding: 120px 0px 20px 0px;
     font-size: 75px;
     color: #f64b3c;
     font-weight: 700;
     font-family: "Archivo";
     text-align: center
+}
+#section-8 p{
+    padding: 20px 0px;
+    font-size: 30px;
+    color: #f64b3c;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+}
+#input{
+    padding: 40px 0px 100px 0px;
+    text-align: center;
+}
+#text{
+    padding: 20px 200px 20px 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+}
+#btn-5{
+    padding: 20px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: 360px;
+    background-color: #f64b3c;
+    color: white;
+}
+#img-19{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+    rotate: 20deg;
+}
+#img-20{
+    position: absolute;
+    top: 25px;
+    right: 560px;
+    width: 80px;
+    height: 80px;
+    rotate: 30deg;
+}
+#img-21{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    rotate: 140deg;
+}
+#img-22{
+    position: absolute;
+    bottom: 15px;
+    left: 230px;
+    width: 100px;
+    height: 100px;
+    rotate: 300deg;
+}
+#img-23{
+    position: absolute;
+    bottom: 200px;
+    right: 150px;
+    width: 60px;
+    height: 60px;
+}
+#img-24{
+    position: absolute;
+    top: 25px;
+    left: 225px;
+    width: 50px;
+    height: 50px;
+}
+#img-25{
+    position: absolute;
+    bottom: 25px;
+    right:  225px;
+    width: 80px;
+    height: 80px;
+    rotate: 50deg;
+}
+#img-26{
+    position: absolute;
+    bottom: 25px;
+    left: 570px;
+    width: 50px;
+    height: 50px;
+    rotate: 160deg;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#footer-1 h1{
+    padding: 100px 0px 10px 70px;
+    font-size: 31px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+#footer-1 p{
+    padding: 30px 0px 50px 70px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+#icon{
+    padding: 10px 10px 70px 70px;
+    display: flex;
+    gap: 20px;
+}
+#icon i{
+    color: white;
+}
+#footer-2 h1{
+    padding: 100px 0px 10px 0px;
+    font-size: 31px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+#footer-2 p{
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+#footer-3 h1{
+    padding: 100px 0px 10px 0px;
+    font-size: 31px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+#footer-3 p{
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+#footer-4 h1{
+    padding: 100px 100px 10px 0px;
+    font-size: 31px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+#footer-4 p{
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
 }
