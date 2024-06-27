@@ -208,9 +208,9 @@
 }
 #section-6 {
   background-color: black;
+  padding: 50px 0px;
 }
 #section-6 h1 {
-  padding: 40px;
   font-size: 50px;
   color: #ffffff;
   font-family: "Aachen BT";
@@ -218,38 +218,79 @@
 }
 #section-6-1{
   display: flex;
-  gap: 20px;
-  padding: 10px;
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+#section-6-1-1,#section-6-1-2,#section-6-1-3{
+  width: 30%;
 }
 #section-6-1 img{
   width: 100%;
   height: 70%;
 }
 .section-6-text h4{
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 25px;
   color: #e58f00;
   font-family: "Aachen BT";
 }
 .section-6-text p{
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 17px;
   color: #ffffff;
   font-family: "Aachen BT";
 }
 #section-7{
-  background-color: black;
   display: flex;
-  position: relative;
+  background-image: url(./Images/Rectangle.png);
 }
-#section-7-1 img{
-  margin-top: 100px;
+#section-7-1{
+  position: relative;
   width: 100%;
 }
-#img-16{
+#img-17{
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100px;
-  height: 500px;
+  top: -10%;
+  width: 77%;
+}
+#section-7-2{
+  padding: 100px 0px;
+}
+#section-7-2 h3{
+  font-size: 50px;
+  color: #ffffff;
+  font-family: "Aachen BT";
+}
+#section-7-2 p{
+  font-size: 33px;
+  color: #ffffff;
+  font-family: "Aachen BT";
+}
+#section-8{
+  background-color: #35353b;
+}
+#section-8-1 img{
+  margin: 40px 400px;
+}
+#section-8-2{
+  display: flex;
+  justify-content: center;
+  gap:20px
+}
+#section-8-2 a{
+  padding: 40px 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+#section-8-3{
+  display: flex;
+  justify-content: center;
+  gap:50px
+}
+#section-8-3 i{
+  padding: 40px 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
