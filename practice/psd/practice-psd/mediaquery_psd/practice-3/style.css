@@ -473,7 +473,6 @@
     margin: 10px 0px 0px 60px;
     width: 102px;
     height: 89px;
-    border-radius: 2px;
 }
 .section-7-1-1 h3{
     margin: 10px 0px 0px 0px;
@@ -494,7 +493,6 @@
     margin: 10px 0px 0px 60px;
     width: 102px;
     height: 89px;
-    border-radius: 2px;
 }
 .section-7-1-2 h3{
     margin: 10px 0px 0px 0px;
@@ -515,7 +513,6 @@
     margin: 10px 0px 0px 60px;
     width: 102px;
     height: 89px;
-    border-radius: 2px;
 }
 .section-7-1-3 h3{
     margin: 10px 0px 0px 0px;
@@ -741,6 +738,9 @@ No media query for `xs` since this is the default in Bootstrap */
             width: 90px;
             height: 60px;
         }
+        .nav a{
+            font-size: 13px;
+        }
         .section-1-1 h1{
             margin: 100px 0px 0px 19px;
             font-size: 30px;
@@ -801,49 +801,1436 @@ No media query for `xs` since this is the default in Bootstrap */
             padding-top: 20px;
             font-size: 30px;
         }
-        .section-3-1-1 img{
-            margin:20px 0px 20px 50px;
-            width: 150px;
-            height: 150px;
+        .section-3-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .section-3-1-1 h4{
-            font-size: 20px;
+            font-size: 25px;
+            text-align: center;
         }
         .section-3-1-1 p{
-            font-size: 15px;
-        }
-        .section-3-1-2 img{
-            margin:20px 0px 20px 40px;
-            width: 150px;
-            height: 150px;
+            font-size: 20px;
+            text-align: center;
         }
         .section-3-1-2 h4{
-            font-size: 20px;
+            font-size: 25px;
+            text-align: center;
         }
         .section-3-1-2 p{
-            font-size: 15px;
-        }
-        .section-3-1-3 img{
-            margin:20px 0px 20px 20px;
-            width: 150px;
-            height: 150px;
+            font-size: 20px;
+            text-align: center;
         }
         .section-3-1-3 h4{
-            font-size: 20px;
+            font-size: 25px;
+            text-align: center;
         }
         .section-3-1-3 p{
-            font-size: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .section-4-1{
+            margin: 60px 0px 0px 30px;
+            width: 250px;
+            height: 300px;
+        }
+        .section-4-1-1{
+            width: 250px;
+            height: 300px;
+        }
+        .section-4-1-2 i{
+            font-size: 50px;
+            position: absolute;
+            top: 130px;
+            left: 140px;
+            z-index: 1;
+        }
+        .section-4-1-3 img{
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+        }
+        .section-4-2 h1{
+            margin: 70px 0px 0px 17px;
+            font-size: 25px;
+        }
+        .section-4-2 p{
+            margin: 17px 0px 0px 15px;
+            font-size: 20px;
+        }
+        .btn-4{
+            margin: 20px 0px 60px 100px;
+            width: 182px;
+            height: 69px;
+        }
+        .section-5 h1{
+            padding-top: 50px;
+            font-size: 25px;
+        }
+        .section-5 p{
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        .section-5-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section-5-1-1 h4{
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-5-1-2 h4{
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-5-1-3 h4{
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-6 h1{
+            margin-top: 80px;
+            font-size: 25px;
+        }
+        .section-6 p{
+            margin:30px 0px 50px 0px;
+            font-size: 20px;
+        }
+        .section-6-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section-6-1-1 h4{
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-6-1-1 p{
+            margin: 10px 0px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .section-6-1-2 h4{
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-6-1-2 p{
+            margin: 10px 0px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .section-6-1-3 h4{
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-6-1-3 p{
+            margin: 10px 0px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .section-7-1{
+            padding: 70px 0px;
+        }
+        .section-7-1-1 img{
+            margin: 10px 0px 0px 40px;
+            width: 50px;
+            height: 40px;
+        }
+        .section-7-1-1 h3{
+            margin: 10px 0px 0px 0px;
+            font-size: 25px;
+        }
+        .section-7-1-1 p{
+            font-size: 20px;
+            text-align: center;
+        }
+        .section-7-1-2 img{
+            margin: 10px 0px 0px 40px;
+            width: 50px;
+            height: 40px;
+        }
+        .section-7-1-2 h3{
+            margin: 10px 0px 0px 0px;
+            font-size: 25px;
+        }
+        .section-7-1-2 p{
+            font-size: 20px;
+            text-align: center;
+        }
+        .section-7-1-3 img{
+            margin: 10px 0px 0px 40px;
+            width: 50px;
+            height: 40px;
+        }
+        .section-7-1-3 h3{
+            margin: 10px 0px 0px 0px;
+            font-size: 25px;
+        }
+        .section-7-1-3 p{
+            font-size: 20px;
+        }
+        .section-8 h1{
+            margin-top: 80px;
+            font-size: 25px;
+        }
+        .section-8 p{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .section-8-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section-8-1-1 h3{
+            margin: 20px 0px 0px 20px;
+            font-size: 25px;
+        }
+        .section-8-1-1 h6{
+            margin: 10px 0px 0px 20px;
+            font-size: 17px;
+        }
+        .section-8-1-1 p{
+            margin: 10px 0px;
+            font-size: 17px;
+        }
+        .btn-6{
+            margin: 20px 0px 0px 20px;
+            font-size: 17px;
+        }
+        .section-8-1-2 h3{
+            margin: 20px 0px 0px 20px;
+            font-size: 25px;
+        }
+        .section-8-1-2 h6{
+            margin: 10px 0px 0px 20px;
+            font-size: 17px;
+        }
+        .section-8-1-2 p{
+            margin: 10px 0px;
+            font-size: 17px;
+        }
+        .section-8-1-3 h3{
+            margin: 20px 0px 0px 20px;
+            font-size: 25px;
+        }
+        .section-8-1-3 h6{
+            margin: 10px 0px 0px 20px;
+            font-size: 17px;
+        }
+        .section-8-1-3 p{
+            margin: 10px 0px;
+            font-size: 17px;
+        }
+        .section-9{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section-9-1 h2{
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-9-1 p{
+            font-size: 20px;
+            text-align: center;
+        }
+        .section-9-2 h2{
+            margin-top: 30px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-9-2 p{
+            font-size: 20px;
+            text-align: center;
+        }
+        .section-9-3 h3{
+            margin-top: 30px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .section-9-3 p{
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #input-text-1{
+            margin-top: 25px;
+            width: 230px;
+            height: 30px;
+            text-align: center;
+        }
+        .box-1{
+            position: absolute;
+            top: 25px;
+            right: 40px;
+        }
+        .icon-1{
+            margin: 20px 0px 20px 70px;
         }
     }
 
 /* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { ... } */
+@media (min-width: 768px) {
+    .nav img{
+        width: 100px;
+        height: 80px;
+    }
+    .nav a{
+        font-size: 15px;
+    }
+    .section-1-1 h1{
+        margin: 100px 0px 0px 19px;
+        font-size: 35px;
+    }
+    .section-1-1 p{
+        margin: 20px 0px 0px 19px;
+        font-size: 30px;
+    }
+    .btn-1{
+        margin: 20px 0px 24px 19px;
+        width: 110px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .btn-2{
+        margin: 20px 0px;
+        width: 110px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .section-1-2 img{
+        margin: 20px 30px 20px 120px;
+        width: 200px;
+        height: 433px;
+    }
+    .section-2-1 h1{
+        margin: 70px 0px 0px 50px;
+        font-size: 30px;
+    }
+    .section-2-1 p{
+        margin: 29px 0px 0px 50px;
+        font-size: 25px;
+    }
+    .btn-3{
+        margin: 80px 0px 20px 50px;
+    }
+    .section-2-2{
+        margin: 100px 0px 70px 50px;
+        background-image: url(./Img/img-2.png);
+        width: 300px;
+        height: 350px;
+    }
+    .section-2-2-1{
+        width: 300px;
+        height: 350px;
+    }
+    .section-2-2-2 i{
+        font-size: 50px;
+        position: absolute;
+        top: 110px;
+        left: 160px;
+        z-index: 1;
+    }
+    .section-3 h1{
+        padding-top: 50px;
+        font-size: 55px;
+    }
+    .section-3 p{
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    .section-3-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-3-1-1 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-3-1-1 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-3-1-2 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-3-1-2 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-3-1-3 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-3-1-3 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-4-1{
+        margin: 60px 0px 50px 30px;
+        width: 300px;
+        height: 320px;
+    }
+    .section-4-1-1{
+        width: 300px;
+        height: 320px;
+    }
+    .section-4-1-2 i{
+        font-size: 50px;
+        position: absolute;
+        top: 130px;
+        left: 145px;
+        z-index: 1;
+    }
+    .section-4-1-3 img{
+        position: absolute;
+        bottom: -30px;
+        right: -30px;
+    }
+    .section-4-2 h1{
+        margin: 70px 0px 0px 130px;
+        font-size: 30px;
+    }
+    .section-4-2 p{
+        margin: 17px 0px 0px 15px;
+        font-size: 20px;
+    }
+    .btn-4{
+        position: absolute;
+        right: 20px;
+        width: 182px;
+        height: 69px;
+    }
+    .section-5 h1{
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    .section-5 p{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .section-5-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-5-1-1 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-5-1-2 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-5-1-3 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-6 h1{
+        margin-top: 80px;
+        font-size: 28px;
+    }
+    .section-6 p{
+        margin:30px 0px 50px 0px;
+        font-size: 25px;
+    }
+    .section-6-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-6-1-1 h4{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-6-1-1 p{
+        margin: 10px 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-6-1-2 h4{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-6-1-2 p{
+        margin: 10px 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-6-1-3 h4{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-6-1-3 p{
+        margin: 10px 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-7-1{
+        padding: 80px 0px;
+    }
+    .section-7-1-1 img{
+        margin: 10px 0px 0px 40px;
+        width: 55px;
+        height: 45px;
+    }
+    .section-7-1-1 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .section-7-1-1 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-7-1-2 img{
+        margin: 10px 0px 0px 40px;
+        width: 55px;
+        height: 45px;
+    }
+    .section-7-1-2 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .section-7-1-2 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-7-1-3 img{
+        margin: 10px 0px 0px 40px;
+        width: 54px;
+        height: 45px;
+    }
+    .section-7-1-3 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .section-7-1-3 p{
+        font-size: 25px;
+    }
+    .section-8 h1{
+        margin-top: 80px;
+        font-size: 30px;
+    }
+    .section-8 p{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .section-8-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-8-1-1 h3{
+        margin: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-1 h6{
+        margin: 10px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-1 p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    .btn-6{
+        margin: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-2 h3{
+        margin: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-2 h6{
+        margin: 10px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-2 p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    .section-8-1-3 h3{
+        margin: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-3 h6{
+        margin: 10px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-3 p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    .section-9{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-9-1 h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-9-1 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-9-2 h2{
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-9-2 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-9-3 h3{
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-9-3 p{
+        margin-top: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    #input-text-1{
+        margin-top: 25px;
+        width: 230px;
+        height: 30px;
+        text-align: center;
+    }
+    .box-1{
+        position: absolute;
+        top: 25px;
+        right: 107px;
+    }
+    .icon-1{
+        margin: 20px 0px 20px 120px;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) { ... } */
+@media (min-width: 992px) {
+    .nav img{
+        width: 130px;
+        height: 90px;
+    }
+    .nav a{
+        font-size: 20px;
+    }
+    .section-1-1 h1{
+        margin: 100px 0px 0px 19px;
+        font-size: 37px;
+    }
+    .section-1-1 p{
+        margin: 20px 0px 0px 19px;
+        font-size: 32px;
+    }
+    .btn-1{
+        margin: 30px 0px 24px 19px;
+        width: 110px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .btn-2{
+        margin: 30px 0px;
+        width: 110px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .section-1-2 img{
+        margin: 20px 30px 20px 120px;
+        width: 240px;
+        height: 433px;
+    }
+    .section-2-1 h1{
+        margin: 70px 0px 0px 50px;
+        font-size: 33px;
+    }
+    .section-2-1 p{
+        margin: 40px 0px 0px 50px;
+        font-size: 27px;
+    }
+    .btn-3{
+        margin: 100px 0px 20px 50px;
+    }
+    .section-2-2{
+        margin: 100px 0px 70px 130px;
+        background-image: url(./Img/img-2.png);
+        width: 350px;
+        height: 350px;
+    }
+    .section-2-2-1{
+        width: 350px;
+        height: 350px;
+    }
+    .section-2-2-2 i{
+        font-size: 50px;
+        position: absolute;
+        top: 95px;
+        left: 160px;
+        z-index: 1;
+    }
+    .section-3 h1{
+        padding-top: 60px;
+        font-size: 60px;
+    }
+    .section-3 p{
+        padding-top: 25px;
+        font-size: 39px;
+    }
+    .section-3-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .section-3-1-1 img{
+        width: 270px;
+        height: 270px;
+    }
+    .section-3-1-1 h4{
+        font-size: 33px;
+        text-align: center;
+    }
+    .section-3-1-1 p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-3-1-2 img{
+        width: 270px;
+        height: 270px;
+    }
+    .section-3-1-2 h4{
+        font-size: 33px;
+        text-align: center;
+    }
+    .section-3-1-2 p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-3-1-3 img{
+        width: 270px;
+        height: 270px;
+    }
+    .section-3-1-3 h4{
+        font-size: 33px;
+        text-align: center;
+    }
+    .section-3-1-3 p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-4-1{
+        margin: 60px 0px 50px 60px;
+        width: 300px;
+        height: 320px;
+    }
+    .section-4-1-1{
+        width: 300px;
+        height: 320px;
+    }
+    .section-4-1-2 i{
+        font-size: 50px;
+        position: absolute;
+        top: 130px;
+        left: 145px;
+        z-index: 1;
+    }
+    .section-4-1-3 img{
+        position: absolute;
+        bottom: -30px;
+        right: -30px;
+    }
+    .section-4-2 h1{
+        margin: 70px 0px 0px 300px;
+        font-size: 35px;
+    }
+    .section-4-2 p{
+        margin: 17px 0px 0px 15px;
+        font-size: 25px;
+    }
+    .btn-4{
+        position: absolute;
+        right: 20px;
+        width: 182px;
+        height: 69px;
+    }
+    .section-5 h1{
+        padding-top: 50px;
+        font-size: 35px;
+    }
+    .section-5 p{
+        padding-top: 20px;
+        font-size: 28px;
+    }
+    .section-5-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .section-5-1 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-5-1-1 h4{
+        font-size: 33px;
+        text-align: center;
+    }
+    .section-5-2 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-5-1-2 h4{
+        font-size: 33px;
+        text-align: center;
+    }
+    .section-5-3 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-5-1-3 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .btn-5{
+        margin: 20px 0px 20px 100px;
+    }
+    .section-6 h1{
+        margin-top: 80px;
+        font-size: 28px;
+    }
+    .section-6 p{
+        margin:30px 0px 50px 0px;
+        font-size: 32px;
+    }
+    .section-6-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .section-6-1-1 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-6-1-1 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-6-1-1 p{
+        margin: 10px 0px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-6-1-2 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-6-1-2 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-6-1-2 p{
+        margin: 10px 0px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-6-1-3 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-6-1-3 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-6-1-3 p{
+        margin: 10px 0px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .icon{
+        margin: 20px 0px 20px 95px;
+    }
+    .section-7-1{
+        padding: 100px 0px;
+    }
+    .section-7-1-1 img{
+        margin: 10px 0px 0px 60px;
+        width: 60px;
+        height: 60px;
+    }
+    .section-7-1-1 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 33px;
+    }
+    .section-7-1-1 p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-7-1-2 img{
+        margin: 10px 0px 0px 60px;
+        width: 60px;
+        height: 60px;
+    }
+    .section-7-1-2 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 33px;
+    }
+    .section-7-1-2 p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-7-1-3 img{
+        margin: 10px 0px 0px 60px;
+        width: 60px;
+        height: 60px;
+    }
+    .section-7-1-3 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 33px;
+    }
+    .section-7-1-3 p{
+        font-size: 28px;
+    }
+    .section-8 h1{
+        margin-top: 80px;
+        font-size: 30px;
+    }
+    .section-8 p{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .section-8-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .section-8-1-1 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-8-1-1 h3{
+        margin: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-1 h6{
+        margin: 10px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-1 p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    .btn-6{
+        margin: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-2 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-8-1-2 h3{
+        margin: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-2 h6{
+        margin: 10px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-2 p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    .section-8-1-3 img{
+        width: 270px;
+        height: 300px;
+    }
+    .section-8-1-3 h3{
+        margin: 20px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-3 h6{
+        margin: 10px 0px 0px 20px;
+        font-size: 20px;
+    }
+    .section-8-1-3 p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    .section-9{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .section-9-1 h2{
+        margin-top: 70px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-9-1 p{
+        font-size: 26px;
+        text-align: center;
+    }
+    .section-9-2 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-9-2 p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .section-9-3 h3{
+        margin-top: 30px;
+        font-size: 33px;
+        text-align: center;
+    }
+    .section-9-3 p{
+        margin-top: 20px;
+        font-size: 28px;
+        text-align: center;
+    }
+    #input-text-1{
+        margin-top: 25px;
+        width: 235px;
+        height: 30px;
+        text-align: center;
+    }
+    .box-1{
+        position: absolute;
+        top: 25px;
+        right: 150px;
+    }
+    .icon-1{
+        margin: 20px 0px 20px 70px;
+    }
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
+@media (min-width: 1200px) {
+    .nav img{
+        width: 135px;
+        height: 100px;
+    }
+    .nav a{
+        font-size: 25px;
+    }
+    #input-text{
+        width: 130px;
+        height: 50px;
+    }
+    ::placeholder {
+        color: white;
+        opacity: 1;
+        font-size: 20px;
+    }
+    .box{
+        width: 50px;
+        height: 50px;
+    }
+    .box i{
+        padding: 20px 0px 20px 15px;
+    }
+    .section-1-1 h1{
+        margin: 193px 0px 0px 50px;
+        font-size: 50px;
+    }
+    .section-1-1 p{
+        margin: 24px 0px 0px 50px;
+        font-size: 35px;
+    }
+    .btn-1{
+        margin: 45px 0px 24px 50px;
+        width: 142px;
+        height: 42px;
+        font-size: 20px;
+    }
+    .btn-2{
+        margin: 45px 0px;
+        width: 142px;
+        height: 42px;
+        font-size: 20px;
+    }
+    .section-1-2 img{
+        margin: 50px 30px 20px 100px;
+        width: 240px;
+        height: 500px;
+    }
+    .section-2-1 h1{
+        margin: 100px 0px 0px 60px;
+        font-size: 50px;
+    }
+    .section-2-1 p{
+        margin: 34px 0px 0px 60px;
+        font-size: 30px;
+    }
+    .btn-3{
+        margin: 60px 0px 60px 60px;
+        width: 182px;
+        height: 69px;
+    }
+    .section-2-2{
+        margin: 100px 0px 0px 200px;
+        width: 450px;
+        height: 350px;
+    }
+    .section-2-2-1{
+        width: 450px;
+        height: 350px;
+    }
+    .section-2-2-2 i{
+        font-size: 65px;
+        position: absolute;
+        top: 125px;
+        left: 200px;
+        z-index: 1;
+    } 
+    .section-2-2-3 img{
+        position: absolute;
+        bottom: -30px;
+        left: -30px;
+    }
+    .section-3 h1{
+        padding-top: 50px;
+        font-size: 40px;
+    }
+    .section-3 p{
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    .section-3-1{
+        display: flex;
+    }
+    .section-3-1-1 img{
+        margin:20px 0px 20px 50px;
+        width: 342px;
+        height: 353px;
+    }
+    .section-3-1-1 h4{
+        font-size: 36px;
+        text-align: center;
+    }
+    .section-3-1-1 p{
+        font-size: 25px;
+        text-align: center;
+        margin:0px 0px 70px 0px;
+    }
+    .section-3-1-2 img{
+        width: 342px;
+        height: 353px;
+        margin:20px 0px 20px 50px;
+    }
+    .section-3-1-2 h4{
+        font-size: 36px;
+        text-align: center;
+    }
+    .section-3-1-2 p{
+        font-size: 25px;
+        text-align: center;
+        margin:0px 0px 70px 0px;
+    }
+    .section-3-1-3 img{
+        width: 342px;
+        height: 353px;
+        margin:20px 0px 20px 50px;
+    }
+    .section-3-1-3 h4{
+        font-size: 36px;
+        text-align: center;
+    }
+    .section-3-1-3 p{
+        font-size: 25px;
+        text-align: center;
+        margin:0px 0px 70px 0px;
+    }
+    .section-4-1{
+        margin: 50px 0px 0px 60px;
+        width: 350px;
+        height: 350px;
+        position: relative;
+    }
+    .section-4-1-1{
+        background: #fcc302;
+        opacity: 0.6;
+        width: 350px;
+        height: 350px;
+    }
+    .section-4-1-2 i{
+        font-size: 60px;
+        position: absolute;
+        top: 140px;
+        left: 160px;
+        z-index: 1;
+    }
+    .section-4-1-3 img{
+        position: absolute;
+        bottom: -30px;
+        right: -30px;
+    }
+    .section-4-2 h1{
+        font-size: 50px;
+        text-align: end;
+    }
+    .section-4-2 p{
+        margin-top: 35px;
+        font-size: 32px;
+        text-align: end;
+    }
+    .btn-4{
+        margin: 30px 0px 100px 100px;
+        width: 182px;
+        height: 69px;
+    }
+    .section-5 h1{
+        margin-top: 70px;
+        font-size: 40px;
+    }
+    .section-5 p{
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    .section-5-1{
+        display: flex;
+    }
+    .section-5-1 img{
+        width: 342px;
+        height: 353px;
+        margin:20px 0px 20px 50px;
+    }
+    .section-5-1-1 h4{
+        font-size: 42px;
+        text-align: center;
+    }
+    .section-5-1-2 h4{
+        font-size: 42px;
+        text-align: center;
+    }
+    .section-5-1-3 h4{
+        font-size: 42px;
+        text-align: center;
+    }
+    .btn-5{
+        margin: 20px 0px 20px 150px;
+        padding: 10px 20px 10px 10px;
+        font-size: 25px;
+    }
+    .section-6 h1{
+        margin-top: 80px;
+        font-size: 40px;
+    }
+    .section-6 p{
+        margin:30px 0px 50px 0px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .section-6-1{
+        display: flex;
+    }
+    .section-6-1-1 img{
+        margin:20px 0px 20px 70px;
+        width: 300px;
+        height: 300px;
+    }
+    .section-6-1-1 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-6-1-1 p{
+        margin: 10px 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-6-1-2 img{
+        margin:20px 0px 20px 70px;
+        width: 360px;
+        height: 300px;
+    }
+    .section-6-1-2 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-6-1-2 p{
+        margin: 10px 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-6-1-3 img{
+        margin:20px 0px 20px 70px;
+        width: 300px;
+        height: 300px;
+    }
+    .section-6-1-3 h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-6-1-3 p{
+        margin: 10px 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .icon{
+        margin: 20px 0px 20px 140px;
+    }
+    .section-7-1{
+        padding: 130px 0px;
+    }
+    .section-7-1-1 img{
+        margin: 10px 0px 0px 60px;
+        width: 70px;
+        height: 75px;
+    }
+    .section-7-1-1 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 40px;
+    }
+    .section-7-1-1 p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-7-1-2 img{
+        margin: 10px 0px 0px 60px;
+        width: 70px;
+        height: 70px;
+    }
+    .section-7-1-2 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 40px;
+    }
+    .section-7-1-2 p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-7-1-3 img{
+        margin: 10px 0px 0px 60px;
+        width: 70px;
+        height: 70px;
+     }
+    .section-7-1-3 h3{
+        margin: 10px 0px 0px 0px;
+        font-size: 40px;
+    }
+    .section-7-1-3 p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-8 h1{
+        margin-top: 80px;
+        font-size: 45px;
+    }
+    .section-8 p{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .section-8-1{
+        display: flex;
+    }
+    .section-8-1-1{
+        margin:30px 0px 20px 80px;
+        width: 320px;
+        height: 550px;
+    }
+    .section-8-1-1 img{
+        width: 320px;
+        height: 300px;
+    }
+    .section-8-1-1 h3{
+        margin: 20px 0px 0px 30px;
+        font-size: 25px;
+    }
+    .section-8-1-1 h6{
+        margin: 10px 0px 0px 30px;
+        font-size: 22px;
+    }
+    .section-8-1-1 p{
+        margin: 10px 0px;
+        font-size: 22px;
+    }
+    .btn-6{
+        margin: 8px 0px 0px 20px;
+        font-size: 17px;
+    }
+    .section-8-1-2{
+        margin:30px 0px 20px 80px;
+        width: 320px;
+        height: 550px;
+    }
+    .section-8-1-2 img{
+        width: 320px;
+        height: 300px;
+    }
+    .section-8-1-2 h3{
+        margin: 20px 0px 0px 30px;
+        font-size: 25px;
+    }
+    .section-8-1-2 h6{
+        margin: 10px 0px 0px 30px;
+        font-size: 22px;
+    }
+    .section-8-1-2 p{
+        margin: 10px 0px;
+        font-size: 22px;
+    }
+    .section-8-1-3{
+        margin:30px 0px 20px 30px;
+        width: 320px;
+        height: 550px;
+    }
+    .section-8-1-3 img{
+        width: 320px;
+        height: 300px;
+    }
+    .section-8-1-3 h3{
+        margin: 20px 0px 0px 30px;
+        font-size: 23px;
+    }
+    .section-8-1-3 h6{
+        margin: 10px 0px 0px 30px;
+        font-size: 22px;
+    }
+    .section-8-1-3 p{
+        margin: 10px 0px;
+        font-size: 22px;
+    }
+    .section-9{
+        padding: 120px 0px 50px 0px;
+        display: flex;
+    }
+    .section-9-1 h2{
+        font-size: 27px;
+    }
+    .section-9-1 p{
+        font-size: 25px;
+    }
+    .section-9-2 h2{
+        font-size: 27px;
+    }
+    .section-9-2 p{
+        font-size: 25px;
+    }
+    .section-9-3 h3{
+        font-size: 27px;
+    }
+    .section-9-3 p{
+        font-size: 25px;
+        text-align: right;
+    }
+    #input-text-1{
+        width: 230px;
+        height: 30px;
+        text-align: center;
+    }
+    .box-1{
+        width: 35px;
+        height: 30px;
+        position: absolute;
+        top: 25px;
+        right: 113px;
+    }
+    .icon-1{
+        margin: 20px 0px 20px 70px;
+    }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 /* @media (min-width: 1400px) { ... } */
