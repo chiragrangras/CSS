@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Path,Text,Strocking</title>
+  </head>
+  <body>
+    <!-- Path -->
+    <svg wegith="400" height="210">
+      <!-- <path d="M150 0 L75 200 L225 200 L120 20 Z"/> -->
+      <path
+        d="M100 0 S 150 200 300 0"
+        stroke="blue"
+        fill="none"
+        stroke-width="5"
+      />
+    </svg>
+    <!-- Text -->
+    <svg wegith="200" height="30">
+      <text x="0" y="15" fill="red">I Love SVG!</text>
+    </svg>
+    <svg wegith="200" height="100">
+      <text x="0" y="15" fill="red" transform="rotate(30 20,40)">
+        I Love SVG!
+      </text>
+    </svg>
+    <!-- Stroking -->
+    <svg wegith="300" height="100">
+      <g fill="none" stroke="black" stroke-width="6">
+        <!-- <path stroke="red" d="M5 20 L215 0"/>
+        <path stroke="black" d="M5 40 L215 0"/>
+        <path stroke="blue" d="M5 60 L215 0"/> -->
+
+        <!-- <path stroke-width="2" d="M5 20 L215 20"/>
+        <path stroke-width="5" d="M5 40 L215 40"/>
+        <path stroke-width="7" d="M5 60 L215 60"/> -->
+        
+        <!-- <path stroke-linecap="butt" d="M5 20 L215 20"/>
+        <path stroke-linecap="round" d="M5 40 L215 40"/>
+        <path stroke-linecap="square" d="M5 60 L215 60"/> -->
+        
+        <path stroke-dasharray="5,5" d="M5 20 L215 20"/>
+        <path stroke-dasharray="10,10" d="M5 40 L215 40"/>
+        <path stroke-dasharray="20,10,5,5,5,10" d="M5 60 L215 60"/>
+      </g>
+    </svg>
+  </body>
+</html>
